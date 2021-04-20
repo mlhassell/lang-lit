@@ -38,22 +38,34 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +Use/-Spell 
 
 !! The nominals are inflected in the following Case and Number
- +Sg +Du +Pl
- +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh
+ +Sg +Pl            ! Might need to add dual +Du
+ +Nom +Gen +Dat +Acc +Ins +Loc +Voc
+
+!! The classes for nouns are: 
++NC11 +NC12 +NC13 +NC21 +NC22 +NC23 +NC31 +NC32 +NC41 +NC42 +NC51 +NC52 +NC53
 
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
 !! The comparative forms are:
- +Comp +Superl
+ +Pos +Comp +Superl
+!! THe definitive form is:
++Defin
 !! Numerals are classified under:
- +Attr +Card
+ +Card
  +Ord 
+ ! +Attr was there, may need to add again?
+ !! The classes for adjectives are:
++AC1 +AC2 +AC3
+ 
 !! Verb moods are:
  +Ind +Prs +Prt +Pot +Cond +Imprt
 !! Verb personal forms are:
- +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3
+ +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
+ ! +Du1 +Du2 +Du3 
 !! Other verb forms are
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
+!! The classes for verbs are:
+
 
 ! Abbreviated words are classified with:
  +ABBR +ACR 
