@@ -1,11 +1,204 @@
 !! Adjective inflection
 !  --------------------
-!! The Lithuanian language adjectives compare.
+!! The Lithuanian language adjectives are divided in 3 classes and decline into 6 cases.
 
-LEXICON Comparisons
-+A+pos:0        Cases   ;
-+A+cmp:er       Cases   ;
-+A+sup:est      Cases   ;
+! Lexicon declaring 3 classes of adjectives
+LEXICON Adj_Classes
++A+AC1: ;
++A+AC2: ;
++A+AC3: ;
+
+LEXICON Adj_Form
++A+C1+Pos: Adj_Pos_1 ;
++A+C2+Pos: Adj_Pos_2 ;
++A+C3+Pos: Adj_Pos_3 ;
++A+C1+Defin: Adj_Defin_1 ;
++A+C2+Defin: Adj_Defin_2 ;
++A+C3+Defin: Adj_Defin_3 ;
++A+C1+Comp: Adj_Comp ;
++A+C2+Comp: Adj_Comp ;
++A+C3+Comp: Adj_Comp ;
++A+C1+Superl: Adj_Superl ;
++A+C2+Superl: Adj_Superl ;
++A+C3+Superl: Adj_Superl ;
+
+! Lexicon containing declensions for class 1 adjectives
+LEXICON Adj_Pos_1
++Msc+Sg+Nom:as # ;
++Msc+Sg+Gen:o # ;
++Msc+Sg+Dat:am # ;
++Msc+Sg+Acc:ą # ;
++Msc+Sg+Ins:u # ;
++Msc+Sg+Loc:ame # ;
++Fem+Sg+Nom:a # ;
++Fem+Sg+Gen:os # ;
++Fem+Sg+Dat:ai # ;
++Fem+Sg+Acc:ą # ;
++Fem+Sg+Ins:a # ;
++Fem+Sg+Loc:oje # ;
++Msc+Pl+Nom:i # ;
++Msc+Pl+Gen:ų # ;
++Msc+Pl+Dat:iems # ;
++Msc+Pl+Acc:us # ;
++Msc+Pl+Ins:ais # ; 
++Msc+Pl+Loc:uose # ;
++Fem+Pl+Nom:os # ;
++Fem+Pl+Gen:ų # ;
++Fem+Pl+Dat:oms # ;
++Fem+Pl+Acc:as # ; 
++Fem+Pl+Ins:omis # ;
++Fem+Pl+Loc:ose # ;
+
+! Lexicon containing declensions for class 2 adjectives
+LEXICON Adj_Pos_2
++Msc+Sg+Nom:us # ;
++Msc+Sg+Gen:aus # ;
++Msc+Sg+Dat:iam # ;
++Msc+Sg+Acc:ų # ;
++Msc+Sg+Ins:iu # ;
++Msc+Sg+Loc:iame # ;
++Fem+Sg+Nom:i # ;
++Fem+Sg+Gen:ios # ;
++Fem+Sg+Dat:iai # ;
++Fem+Sg+Acc:ią # ;
++Fem+Sg+Ins:ia # ;
++Fem+Sg+Loc:ioje # ;
++Msc+Pl+Nom:ūs # ;
++Msc+Pl+Gen:ių # ;
++Msc+Pl+Dat:iems # ;
++Msc+Pl+Acc:ius # ;
++Msc+Pl+Ins:iais # ; 
++Msc+Pl+Loc:iuose # ;
++Fem+Pl+Nom:ios # ;
++Fem+Pl+Gen:ių # ;
++Fem+Pl+Dat:ioms # ;
++Fem+Pl+Acc:ias # ; 
++Fem+Pl+Ins:iomis # ;
++Fem+Pl+Loc:iose # ;
+
+! Lexicon containing declensions for class 3 adjectives
+LEXICON Adj_Pos_3
++Msc+Sg+Nom:is # ;
++Msc+Sg+Gen:io # ;
++Msc+Sg+Dat:iam # ;
++Msc+Sg+Acc:į # ;
++Msc+Sg+Ins:iu # ;
++Msc+Sg+Loc:iame # ;
++Fem+Sg+Nom:ė # ;
++Fem+Sg+Gen:ės # ;
++Fem+Sg+Dat:ei # ;
++Fem+Sg+Acc:ę # ;
++Fem+Sg+Ins:e # ;
++Fem+Sg+Loc:ėje # ;
++Msc+Pl+Nom:iai # ;
++Msc+Pl+Gen:ių # ;
++Msc+Pl+Dat:iams # ;
++Msc+Pl+Acc:ius # ;
++Msc+Pl+Ins:iais # ; 
++Msc+Pl+Loc:iuose # ;
++Fem+Pl+Nom:ės # ;
++Fem+Pl+Gen:ių # ;
++Fem+Pl+Dat:ėms # ;
++Fem+Pl+Acc:es # ; 
++Fem+Pl+Ins:ėmis # ;
++Fem+Pl+Loc:ėse # ;
+
+
+!! The Lithuanian language adjectives compare, and both comparative and superlative forms decline.
+
+! Comparative declensions
+LEXICON Adj_Comp
+
+
+! Superlative declensions
+LEXICON Adj_Superl
+
+
+
+
+!! The Lithuanian language adjectives have definitive forms which decline. 
+
+! Definitive adjectives for class 1
+LEXICON Adj_Defin_1
++Msc+Sg+Nom: # ;
++Msc+Sg+Gen: # ;
++Msc+Sg+Dat: # ;
++Msc+Sg+Acc: # ;
++Msc+Sg+Ins: # ;
++Msc+Sg+Loc: # ;
++Fem+Sg+Nom: # ;
++Fem+Sg+Gen: # ;
++Fem+Sg+Dat: # ;
++Fem+Sg+Acc: # ;
++Fem+Sg+Ins: # ;
++Fem+Sg+Loc: # ;
++Msc+Pl+Nom: # ;
++Msc+Pl+Gen: # ;
++Msc+Pl+Dat: # ;
++Msc+Pl+Acc: # ;
++Msc+Pl+Ins: # ; 
++Msc+Pl+Loc: # ;
++Fem+Pl+Nom: # ;
++Fem+Pl+Gen: # ;
++Fem+Pl+Dat: # ;
++Fem+Pl+Acc: # ; 
++Fem+Pl+Ins: # ;
++Fem+Pl+Loc: # ;
+
+! Definitive adjectives for class 2
+LEXICON Adj_Defin_2
++Msc+Sg+Nom: # ;
++Msc+Sg+Gen: # ;
++Msc+Sg+Dat: # ;
++Msc+Sg+Acc: # ;
++Msc+Sg+Ins: # ;
++Msc+Sg+Loc: # ;
++Fem+Sg+Nom: # ;
++Fem+Sg+Gen: # ;
++Fem+Sg+Dat: # ;
++Fem+Sg+Acc: # ;
++Fem+Sg+Ins: # ;
++Fem+Sg+Loc: # ;
++Msc+Pl+Nom: # ;
++Msc+Pl+Gen: # ;
++Msc+Pl+Dat: # ;
++Msc+Pl+Acc: # ;
++Msc+Pl+Ins: # ; 
++Msc+Pl+Loc: # ;
++Fem+Pl+Nom: # ;
++Fem+Pl+Gen: # ;
++Fem+Pl+Dat: # ;
++Fem+Pl+Acc: # ; 
++Fem+Pl+Ins: # ;
++Fem+Pl+Loc: # ;
+
+! Definitive adjectives for class 3
+LEXICON Adj_Defin_3
++Msc+Sg+Nom: # ;
++Msc+Sg+Gen: # ;
++Msc+Sg+Dat: # ;
++Msc+Sg+Acc: # ;
++Msc+Sg+Ins: # ;
++Msc+Sg+Loc: # ;
++Fem+Sg+Nom: # ;
++Fem+Sg+Gen: # ;
++Fem+Sg+Dat: # ;
++Fem+Sg+Acc: # ;
++Fem+Sg+Ins: # ;
++Fem+Sg+Loc: # ;
++Msc+Pl+Nom: # ;
++Msc+Pl+Gen: # ;
++Msc+Pl+Dat: # ;
++Msc+Pl+Acc: # ;
++Msc+Pl+Ins: # ; 
++Msc+Pl+Loc: # ;
++Fem+Pl+Nom: # ;
++Fem+Pl+Gen: # ;
++Fem+Pl+Dat: # ;
++Fem+Pl+Acc: # ; 
++Fem+Pl+Ins: # ;
++Fem+Pl+Loc: # ;
+
+
 
 ! vim: set ft=xfst-lexc:
-
