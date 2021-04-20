@@ -9,12 +9,12 @@ LEXICON Adj_Classes
 +A+AC3: ;
 
 LEXICON Adj_Form
-+A+C1+Pos: Adj_Pos_1 ;
-+A+C2+Pos: Adj_Pos_2 ;
-+A+C3+Pos: Adj_Pos_3 ;
-+A+C1+Defin: Adj_Defin_1 ;
-+A+C2+Defin: Adj_Defin_2 ;
-+A+C3+Defin: Adj_Defin_3 ;
++A+AC1+Pos: Adj_Pos_1 ;
++A+AC2+Pos: Adj_Pos_2 ;
++A+AC3+Pos: Adj_Pos_3 ;
++A+AC1+Defin: Adj_Defin_1 ;
++A+AC2+Defin: Adj_Defin_2 ;
++A+AC3+Defin: Adj_Defin_3 ;
 +A+Comp: Adj_Comp ;
 +A+Superl: Adj_Superl ;
 

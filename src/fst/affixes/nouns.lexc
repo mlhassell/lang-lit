@@ -3,7 +3,8 @@
 
 !! The Lithuanian language has 5 classes of nouns, which have sub-classes
 
-LEXICON Nouns_Classes
+!Lexicon declaring noun classes
+LEXICON Noun_Classes
 +N+NC11: Noun_C11 ;
 +N+NC12: Noun_C12 ;
 +N+NC13: Noun_C13 ;
