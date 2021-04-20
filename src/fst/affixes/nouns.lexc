@@ -1,15 +1,260 @@
 !! Noun inflection
 !  ---------------
-!! The Lithuanian language nouns inflect in cases.
 
-LEXICON Cases
- +N+Sg+nom:0   #     ;
- +N+Pl+nom:i   #     ;
- +N+Sg+loc:as  #     ;
- +N+Pl+loc:ias #     ;
- +N+Sg+acc:at  #     ;
- +N+Pl+acc:iat #     ;
-         #:0   Nouns ;
+!! The Lithuanian language has 5 classes of nouns, which have sub-classes
+
+LEXICON Nouns_Classes
++N+NC11: Noun_C11 ;
++N+NC12: Noun_C12 ;
++N+NC13: Noun_C13 ;
++N+NC21: Noun_C21 ;
++N+NC22: Noun_C22 ;
++N+NC23: Noun_C23 ;
++N+NC31: Noun_C31 ;
++N+NC32: Noun_C32 ;
++N+NC41: Noun_C41 ;
++N+NC42: Noun_C42 ;
++N+NC51: Noun_C51 ;
++N+NC52: Noun_C52 ;
++N+NC53: Noun_C53 ;
+
+
+!! The Lithuanian language nouns inflect in 7 cases.
+
+! Declensions for Nouns, Class 1.1
+! 1.1 Nouns are always masculine
+LEXICON Noun_C11
+ +Sg+Nom:as   #     ;
+ +Sg+Gen:o   #     ;
+ +Sg+Dat:ui   #     ;
+ +Sg+Acc:ą   #     ;
+ +Sg+Ins:u   #     ;
+ +Sg+Loc:e   #     ;
+ +Sg+Voc:e   #     ;
+ !+Sg+Voc:ai   #     ;  !!! 1.1 nouns have a different vocative for animate vs. inanimate
+ +Pl+Nom:ai   #     ;
+ +Pl+Gen:ų   #     ;
+ +Pl+Dat:ams   #     ;
+ +Pl+Acc:us   #     ;
+ +Pl+Ins:ais   #     ;
+ +Pl+Loc:uose   #     ;
+ +Pl+Voc:ai   #     ;
+
+! Declensions for Nouns, Class 1.2
+! 1.2 Nouns are always masculine
+LEXICON Noun_C12
+ +Sg+Nom:is   #     ;
+ +Sg+Gen:io   #     ;
+ +Sg+Dat:iui   #     ;
+ +Sg+Acc:į   #     ;
+ +Sg+Ins:iu   #     ;
+ +Sg+Loc:yje   #     ;
+ +Sg+Voc:i   #     ;
+ +Pl+Nom:iai   #     ;
+ +Pl+Gen:ių   #     ;
+ +Pl+Dat:iams   #     ;
+ +Pl+Acc:ius   #     ;
+ +Pl+Ins:iais   #     ;
+ +Pl+Loc:iuose   #     ;
+ +Pl+Voc:iai   #     ;
+
+! Declensions for Nouns, Class 1.3
+! 1.3 Nouns are always masculine
+LEXICON Noun_C13
+ +Sg+Nom:ys   #     ;
+ +Sg+Gen:io   #     ;
+ +Sg+Dat:iui   #     ;
+ +Sg+Acc:į   #     ;
+ +Sg+Ins:iu   #     ;
+ +Sg+Loc:yje   #     ;
+ +Sg+Voc:y   #     ;
+ +Pl+Nom:iai   #     ;
+ +Pl+Gen:ių   #     ;
+ +Pl+Dat:iams   #     ;
+ +Pl+Acc:ius   #     ;
+ +Pl+Ins:iais   #     ;
+ +Pl+Loc:iuose   #     ;
+ +Pl+Voc:iai   #     ;
+
+! Declensions for Nouns, Class 2.1
+! 2.1 Nouns are always feminine
+LEXICON Noun_C21
+ +Sg+Nom:a   #     ;
+ +Sg+Gen:os   #     ;
+ +Sg+Dat:ai   #     ;
+ +Sg+Acc:ą   #     ;
+ +Sg+Ins:a   #     ;
+ +Sg+Loc:oje   #     ;
+ +Sg+Voc:a   #     ;
+ +Pl+Nom:os   #     ;
+ +Pl+Gen:ų   #     ;
+ +Pl+Dat:oms   #     ;
+ +Pl+Acc:as   #     ;
+ +Pl+Ins:omis   #     ;
+ +Pl+Loc:ose   #     ;
+ +Pl+Voc:os   #     ;
+
+ ! Declensions for Nouns, Class 2.2
+ ! 2.2 Nouns are always feminine
+LEXICON Noun_C22
+ +Sg+Nom:ė   #     ;
+ +Sg+Gen:ės   #     ;
+ +Sg+Dat:ei   #     ;
+ +Sg+Acc:ę   #     ;
+ +Sg+Ins:e   #     ;
+ +Sg+Loc:ėje   #     ;
+ +Sg+Voc:e   #     ;
+ +Pl+Nom:ės   #     ;
+ +Pl+Gen:ių   #     ;
+ +Pl+Dat:ėms   #     ;
+ +Pl+Acc:es   #     ;
+ +Pl+Ins:ėmis   #     ;
+ +Pl+Loc:ėse   #     ;
+ +Pl+Voc:ės   #     ;
+
+ ! Declensions for Nouns, Class 2.3
+ ! 2.3 Nouns are always feminine
+LEXICON Noun_C23
+ +Sg+Nom:i   #     ;
+ +Sg+Gen:ios   #     ;
+ +Sg+Dat:iai   #     ;
+ +Sg+Acc:ią   #     ;
+ +Sg+Ins:ia   #     ;
+ +Sg+Loc:ioje   #     ;
+ +Sg+Voc:i   #     ;
+ +Pl+Nom:ios   #     ;
+ +Pl+Gen:ių   #     ;
+ +Pl+Dat:ioms   #     ;
+ +Pl+Acc:ias   #     ;
+ +Pl+Ins:iomis   #     ;
+ +Pl+Loc:iose   #     ;
+ +Pl+Voc:ios   #     ;
+
+! Declensions for Nouns, Class 3.1
+! 3.1 Nouns are always feminine
+LEXICON Noun_C31
+ +Sg+Nom:is   #     ;
+ +Sg+Gen:ies   #     ;
+ +Sg+Dat:iai   #     ;
+ +Sg+Acc:į   #     ;
+ +Sg+Ins:imi   #     ;
+ +Sg+Loc:yje   #     ;
+ +Sg+Voc:ie   #     ;
+ +Pl+Nom:ys   #     ;
+ +Pl+Gen:ių   #     ;
+ +Pl+Dat:ims   #     ;
+ +Pl+Acc:is   #     ;
+ +Pl+Ins:imis   #     ;
+ +Pl+Loc:yse   #     ;
+ +Pl+Voc:ys   #     ;
+
+ ! Declensions for Nouns, Class 3.2
+ ! 3.2 Nouns are always masculine
+LEXICON Noun_C32
+ +Sg+Nom:is   #     ;
+ +Sg+Gen:ies   #     ;
+ +Sg+Dat:iui   #     ;
+ +Sg+Acc:į   #     ;
+ +Sg+Ins:imi   #     ;
+ +Sg+Loc:yje   #     ;
+ +Sg+Voc:ie   #     ;
+ +Pl+Nom:ys   #     ;
+ +Pl+Gen:ų   #     ;
+ +Pl+Dat:ims   #     ;
+ +Pl+Acc:is   #     ;
+ +Pl+Ins:imis   #     ;
+ +Pl+Loc:yse   #     ;
+ +Pl+Voc:ys   #     ;
+
+! Declensions for Nouns, Class 4.1
+LEXICON Noun_C41
+ +Sg+Nom:us   #     ;
+ +Sg+Gen:aus   #     ;
+ +Sg+Dat:ui   #     ;
+ +Sg+Acc:ų   #     ;
+ +Sg+Ins:umi   #     ;
+ +Sg+Loc:uje   #     ;
+ +Sg+Voc:au   #     ;
+ +Pl+Nom:ūs   #     ;
+ +Pl+Gen:ų   #     ;
+ +Pl+Dat:ums   #     ;
+ +Pl+Acc:us   #     ;
+ +Pl+Ins:umis   #     ;
+ +Pl+Loc:uose   #     ;
+ +Pl+Voc:ūs   #     ;
+
+ ! Declensions for Nouns, Class 4.2
+LEXICON Noun_C42
+ +Sg+Nom:ius   #     ;
+ +Sg+Gen:iaus   #     ;
+ +Sg+Dat:iui   #     ;
+ +Sg+Acc:ių   #     ;
+ +Sg+Ins:iumi   #     ;
+ +Sg+Loc:iuje   #     ;
+ +Sg+Voc:iau   #     ;
+ +Pl+Nom:iai   #     ;
+ +Pl+Gen:ių   #     ;
+ +Pl+Dat:iams   #     ;
+ +Pl+Acc:ius   #     ;
+ +Pl+Ins:iais   #     ;
+ +Pl+Loc:iuose   #     ;
+ +Pl+Voc:iai   #     ;
+
+! Declensions for Nouns, Class 5.1
+! 5.1 Nouns are always masculine
+LEXICON Noun_C51
+ +Sg+Nom:uo   #     ;
+ +Sg+Gen:ens   #     ;
+ +Sg+Dat:eniui   #     ;
+ +Sg+Acc:enį   #     ;
+ +Sg+Ins:eniu   #     ;
+ +Sg+Loc:enyje   #     ;
+ +Sg+Voc:enie   #     ;
+ +Pl+Nom:enys   #     ;
+ +Pl+Gen:enų   #     ;
+ +Pl+Dat:enims   #     ;
+ +Pl+Acc:enis   #     ;
+ +Pl+Ins:enimis   #     ;
+ +Pl+Loc:enyse   #     ;
+ +Pl+Voc:enys   #     ;
+
+ ! Declensions for Nouns, Class 5.2
+ ! 5.2 Nouns are always feminine
+LEXICON Noun_C52
+ +Sg+Nom:uo   #     ;
+ +Sg+Gen:ers   #     ;
+ +Sg+Dat:eriai   #     ;
+ +Sg+Acc:erį   #     ;
+ +Sg+Ins:eria   #     ;
+ +Sg+Loc:eryje   #     ;
+ +Sg+Voc:erie   #     ;
+ +Pl+Nom:erys   #     ;
+ +Pl+Gen:erų   #     ;
+ +Pl+Dat:erims   #     ;
+ +Pl+Acc:eris   #     ;
+ +Pl+Ins:erimis   #     ;
+ +Pl+Loc:eryse   #     ;
+ +Pl+Voc:erys   #     ;
+
+
+ ! Declensions for Nouns, Class 5.3
+ ! 5.23 Nouns are always feminine
+LEXICON Noun_C53
+ +Sg+Nom:ė   #     ;
+ +Sg+Gen:ers   #     ;
+ +Sg+Dat:eriai   #     ;
+ +Sg+Acc:erį   #     ;
+ +Sg+Ins:eria   #     ;
+ +Sg+Loc:eryje   #     ;
+ +Sg+Voc:erie   #     ;
+  +Pl+Nom:erys   #     ;
+ +Pl+Gen:erų   #     ;
+ +Pl+Dat:erims   #     ;
+ +Pl+Acc:eris   #     ;
+ +Pl+Ins:erimis   #     ;
+ +Pl+Loc:eryse   #     ;
+ +Pl+Voc:erys   #     ;
 
 ! vim: set ft=xfst-lexc:
+
 
