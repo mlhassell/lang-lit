@@ -3,20 +3,25 @@
 !! =================================== !
 
 Alphabet
- a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
- á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç
+ a ą b c č d e ę ė f g h i į y j k l m n o p r s š t u ų ū v z ž
 
- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
- Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
+ A Ą B C Č D E Ę Ė F G H I Į y J K L M N O P R S Š T U Ų Ū V Z Ž
 
  %>:0 ;
 
 Sets
 
- Vow = a e i o u y æ ø å 
-       á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý ;
- Cns = b c d f g h j k l m n p q r s t v w x z ð þ ;
+ Vow = a ą e ę ė i į y o u ų ū ;
+ Cns = b c č d f g h j k l m n p r s š t v z ž ;
  
+ ! Non-palatal vowels
+ NonPalV = a ą o u ų ū 
+         A Ą O U Ų Ū ;
+
+! Palatal vowels
+PalV = e ę ė i į y 
+     E Ę Ė I Į Y ;
+
 Rules
 
 "Deleting stem-final s in s genitive"
@@ -30,3 +35,15 @@ Rules
 
 !!$grís%>s
 !!$grís0s
+
+"Deleting double s"
+s:0 <=> s_ ;
+
+"Deleting s after š"
+s:0 <=> š_ ;
+
+"t becomes č preceding i and a, o, u"
+t:č <=> _i NonPalV ;
+
+"d becomes dž preceding i and a, o, u"
+d:dž <=> _i NonPalV ;
