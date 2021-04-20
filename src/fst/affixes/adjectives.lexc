@@ -15,12 +15,8 @@ LEXICON Adj_Form
 +A+C1+Defin: Adj_Defin_1 ;
 +A+C2+Defin: Adj_Defin_2 ;
 +A+C3+Defin: Adj_Defin_3 ;
-+A+C1+Comp: Adj_Comp ;
-+A+C2+Comp: Adj_Comp ;
-+A+C3+Comp: Adj_Comp ;
-+A+C1+Superl: Adj_Superl ;
-+A+C2+Superl: Adj_Superl ;
-+A+C3+Superl: Adj_Superl ;
++A+Comp: Adj_Comp ;
++A+Superl: Adj_Superl ;
 
 ! Lexicon containing declensions for class 1 adjectives
 LEXICON Adj_Pos_1
@@ -108,11 +104,57 @@ LEXICON Adj_Pos_3
 
 ! Comparative declensions
 LEXICON Adj_Comp
-
++Msc+Sg+Nom:esnis # ;
++Msc+Sg+Gen:esnio # ;
++Msc+Sg+Dat:esniam # ;
++Msc+Sg+Acc:esnį # ;
++Msc+Sg+Ins:esniu # ;
++Msc+Sg+Loc:esniame # ;
++Fem+Sg+Nom:esnė # ;
++Fem+Sg+Gen:esnės # ;
++Fem+Sg+Dat:esnei # ;
++Fem+Sg+Acc:esnę # ;
++Fem+Sg+Ins:esne # ;
++Fem+Sg+Loc:esnėje # ;
++Msc+Pl+Nom:esni # ;
++Msc+Pl+Gen:esnių # ;
++Msc+Pl+Dat:esniems # ;
++Msc+Pl+Acc:esnius # ;
++Msc+Pl+Ins:esniais # ; 
++Msc+Pl+Loc:esniuose # ;
++Fem+Pl+Nom:esnės # ;
++Fem+Pl+Gen:esnių # ;
++Fem+Pl+Dat:esnėms # ;
++Fem+Pl+Acc:esnes # ; 
++Fem+Pl+Ins:esnėmis # ;
++Fem+Pl+Loc:esnėse # ;
 
 ! Superlative declensions
 LEXICON Adj_Superl
-
++Msc+Sg+Nom:iausias # ;
++Msc+Sg+Gen:iausio # ;
++Msc+Sg+Dat:iausiam # ;
++Msc+Sg+Acc:iausią # ;
++Msc+Sg+Ins:iausiu # ;
++Msc+Sg+Loc:iausiame # ;
++Fem+Sg+Nom:iausia # ;
++Fem+Sg+Gen:iausios # ;
++Fem+Sg+Dat:iausiai # ;
++Fem+Sg+Acc:iausią # ;
++Fem+Sg+Ins:iausia # ;
++Fem+Sg+Loc:iausioje # ;
++Msc+Pl+Nom:iausi # ;
++Msc+Pl+Gen:iausių # ;
++Msc+Pl+Dat:iausiems # ;
++Msc+Pl+Acc:iausius # ;
++Msc+Pl+Ins:iausiais # ; 
++Msc+Pl+Loc:iausiuose # ;
++Fem+Pl+Nom:iausios # ;
++Fem+Pl+Gen:iausių # ;
++Fem+Pl+Dat:iausioms # ;
++Fem+Pl+Acc:iausias # ; 
++Fem+Pl+Ins:iausiomis # ;
++Fem+Pl+Loc:iausiose # ;
 
 
 
