@@ -1,16 +1,107 @@
 !! Verb inflection
 !  ---------------
-!! The Lithuanian language verbs inflect in persons.
+!! The Lithuanian language verbs have classes.
 
-LEXICON Persons
-+V+1sg:en   #   ;
-+V+2sg:et   #   ;
-+V+3sg:e    #   ;
-+V+1pl:ien  #   ;
-+V+2pl:iet  #   ;
-+V+3pl:iet  #   ;
-+V+inf:0    #   ;
-#:0   Nouns   ;
+LEXICON Verb_Classes
++V+VC1: Verbs_C1     ;
++V+VC2: Verbs_C2     ;
++V+VC3: Verbs_C3      ;
+
+LEXICON Verbs_C1
++Pres: ;
++Pst: ;
++FPst: Freq_Past ;
++Fut: Future ;
++Cond: Subjunctive ;
++Imprt: Imperative ;
+
+LEXICON Verbs_C2
++Pres: ;
++Pst: ;
++FPst: Freq_Past ;
++Fut: Future ;
++Cond: Subjunctive ;
++Imprt: Imperative ;
+
+LEXICON Verbs_C3
++Pres: ;
++Pst: ;
++FPst: Freq_Past ;
++Fut: Future ;
++Cond: Subjunctive ;
++Imprt: Imperative ;
+
+LEXICON Conj_a
++Sg1: # ;
++Sg2: # ;
++Sg3: # ;
++Pl1: # ;
++Pl2: # ;
++Pl3: # ;
+
+LEXICON Conj_ia
++Sg1: # ;
++Sg2: # ;
++Sg3: # ;
++Pl1: # ;
++Pl2: # ;
++Pl3: # ;
+
+LEXICON Conj_o
++Sg1: # ;
++Sg2: # ;
++Sg3: # ;
++Pl1: # ;
++Pl2: # ;
++Pl3: # ;
+
+LEXICON Conj_i
++Sg1: # ;
++Sg2: # ;
++Sg3: # ;
++Pl1: # ;
++Pl2: # ;
++Pl3: # ;
+
+LEXICON Conj_e
++Sg1: # ;
++Sg2: # ;
++Sg3: # ;
++Pl1: # ;
++Pl2: # ;
++Pl3: # ;
+
+LEXICON Freq_Past
++Sg1: # ;
++Sg2: # ;
++Sg3: # ;
++Pl1: # ;
++Pl2: # ;
++Pl3: # ;
+
+LEXICON Future
++Sg1:siu # ;
++Sg2:si # ;
++Sg3:s # ;
++Pl1:sime # ;
++Pl2:site # ;
++Pl3:s # ;
+
+LEXICON Subjunctive
++Sg1:čiau # ;
++Sg2:tum # ;
++Sg3:tų # ;
++Pl1:tume # ;
++Pl2:tumėte # ;
++Pl3:tų # ;
+
+LEXICON Imperative
++Sg2:k # ;  ! can also be ki
+!+Sg3: # ;  ! weird form?
++Pl1:kime # ;
++Pl2:kite # ;
+!+Pl3: # ;
+
 
 ! vim: set ft=xfst-lexc:
 

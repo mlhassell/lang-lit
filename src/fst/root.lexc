@@ -66,6 +66,9 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! Other verb forms are
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
 !! The classes for verbs are:
+ +VC1 +VC2 +VC3
+!! The verb tenses are:
+ +Pres +Pst +FPst +Fut
 
 
 ! Abbreviated words are classified with:
