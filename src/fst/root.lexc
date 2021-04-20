@@ -37,9 +37,10 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +Err/Orth   
  +Use/-Spell 
 
-!! The nominals are inflected in the following Case and Number
+!! The nominals are inflected in the following Case, Gender, and Number
  +Sg +Pl            ! Might need to add dual +Du
  +Nom +Gen +Dat +Acc +Ins +Loc +Voc
+ +Msc +Fem
 
 !! The classes for nouns are: 
 +NC11 +NC12 +NC13 +NC21 +NC22 +NC23 +NC31 +NC32 +NC41 +NC42 +NC51 +NC52 +NC53
