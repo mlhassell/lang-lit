@@ -2,11 +2,12 @@
 !  ---------------
 !! The Lithuanian language verbs have classes.
 
-LEXICON Verb_Classes
-+V+VC11: Verbs_C11     ;
-+V+VC12: Verbs_C12  ;
-+V+VC2: Verbs_C2     ;
-+V+VC3: Verbs_C3      ;
+!! TODO delete
+!LEXICON Verb_Classes
+!+V+VC11: Verbs_C11     ;
+!+V+VC12: Verbs_C12  ;
+!+V+VC2: Verbs_C2     ;
+!+V+VC3: Verbs_C3      ;
 
 LEXICON Verbs_C11
 +Pres: Conj_a ;

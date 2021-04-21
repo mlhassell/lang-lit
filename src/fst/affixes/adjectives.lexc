@@ -9,15 +9,37 @@
 !+A+AC2: ;
 !+A+AC3: ;
 
-LEXICON Adj_Form
-+A+AC1+Pos: Adj_Pos_1 ;
-+A+AC2+Pos: Adj_Pos_2 ;
-+A+AC3+Pos: Adj_Pos_3 ;
-+A+AC1+Defin: Adj_Defin_1 ;
-+A+AC2+Defin: Adj_Defin_2 ;
-+A+AC3+Defin: Adj_Defin_3 ;
+! TODO delete
+!LEXICON Adj_Form
+!!+A+AC1+Pos: Adj_Pos_1 ;
+!+A+AC2+Pos: Adj_Pos_2 ;
+!+A+AC3+Pos: Adj_Pos_3 ;
+!+A+AC1+Defin: Adj_Defin_1 ;
+!+A+AC2+Defin: Adj_Defin_2 ;
+!+A+AC3+Defin: Adj_Defin_3 ;
+!+A+Comp: Adj_Comp ;
+!+A+Superl: Adj_Superl ;
+
+LEXICON Adj_C1
++A+Pos: Adj_Pos_1 ;
++A+Defin: Adj_Defin_1 ;
 +A+Comp: Adj_Comp ;
 +A+Superl: Adj_Superl ;
++Adv:ai # ;
+
+LEXICON Adj_C2
++A+Pos: Adj_Pos_2 ;
++A+Defin: Adj_Defin_2 ;
++A+Comp: Adj_Comp ;
++A+Superl: Adj_Superl ;
++Adv:iai # ;
+
+LEXICON Adj_C3
++A+Pos: Adj_Pos_3 ;
++A+Defin: Adj_Defin_3 ;
++A+Comp: Adj_Comp ;
++A+Superl: Adj_Superl ;
++Adv:iai # ;
 
 ! Lexicon containing declensions for class 1 adjectives
 LEXICON Adj_Pos_1

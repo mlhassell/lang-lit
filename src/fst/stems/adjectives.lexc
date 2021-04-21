@@ -3,6 +3,14 @@
 !! Adjectives in the Lithuanian language describe things.
 
 LEXICON Adjectives
-adjective    Comparisons   ;
+!adjective    Comparisons   ;
+sunk Adj_C2 ;
+ger Adj_C1 ;
+blog Adj_C1 ;
+malon Adj_C2 ;
+did Adj_C3 ;
+juod Adj_C1 ;
+balt Adj_C1 ;
+
 
 ! vim: set ft=xfst-lexc:

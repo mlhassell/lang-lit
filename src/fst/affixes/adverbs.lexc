@@ -2,11 +2,8 @@
 !  --------------------
 !! The Lithuanian language adverbs have a palatalized and non-palatalized form
 
-LEXICON Adverbs
-+Adv: Adv ;
 
 LEXICON Adv
-+A+C1:ai # ;
-+A+C2:iai # ;
-+A+C3:iai # ;
++Adv: # ;
+
 
