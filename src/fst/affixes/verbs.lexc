@@ -4,7 +4,7 @@
 
 LEXICON Verb_Classes
 +V+VC11: Verbs_C11     ;
-+V+VC12: Verbs_C12
++V+VC12: Verbs_C12  ;
 +V+VC2: Verbs_C2     ;
 +V+VC3: Verbs_C3      ;
 
