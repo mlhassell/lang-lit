@@ -27,15 +27,9 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! (It is highly suggested to follow existing standards when adding new tags).
 
 !! The parts-of-speech are:
- +N +A +Adv +V                                 !!≈
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!≈
+ +N +A +Adv +V                                 
+ +Pron 
 
-!! The parts of speech are further split up into:
- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
-
-!! The Usage extents are marked using following tags:
- +Err/Orth   
- +Use/-Spell 
 
 !! The nominals are inflected in the following Case, Gender, and Number
  +Sg +Pl            ! Might need to add dual +Du
@@ -45,8 +39,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! The classes for nouns are: 
 +NC11 +NC12 +NC13 +NC21 +NC22 +NC23 +NC31 +NC32 +NC41 +NC42 +NC51 +NC52 +NC53
 
-!! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
+
 !! The comparative forms are:
  +Pos +Comp +Superl
 !! THe definitive form is:
@@ -54,63 +47,19 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! Numerals are classified under:
  +Card
  +Ord 
- ! +Attr was there, may need to add again?
  !! The classes for adjectives are:
 +AC1 +AC2 +AC3
  
-!! Verb moods are:
- +Ind +Prs +Prt +Pot +Cond +Imprt
+
 !! Verb personal forms are:
  +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
- ! +Du1 +Du2 +Du3 
-!! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
 !! The classes for verbs are:
  +VC1 +VC2 +VC3
-!! The verb tenses are:
- +Pres +Pst +FPst +Fut
+!! The verb conjugation patterns are:
+ +Pres +Pst +FPst +Fut +Cond +Imprt
+ !! Verbs can be reflexive
+ +Refl
 
-
-! Abbreviated words are classified with:
- +ABBR +ACR 
-+Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
-!! Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT
-!! The verbs are syntactically split according to transitivity:
- +TV +IV
-!! Special multiword units are analysed with:
- +Multi
-!! Non-dictionary words can be recognised with:
- +Guess
-
-!! Question and Focus particles:
- +Qst +Foc
-
-
-!! Semantics are classified with
- +Mal +Fem +Sur 
- +Plc 
- +Org
- +Obj
- +Ani
- +Hum
- +Plant
- +Group
- +Time 
- +Txt
- +Route
- +Measr 
- +Wthr
- +Build 
- +Edu
- +Veh
- +Clth
-
-
-!! Derivations are classified under the morphophonetic form of the suffix, the
-!! source and target part-of-speech.
- +V→N +V→V +V→A
- +Der/xxx
 
 
 !! Morphophonology

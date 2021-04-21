@@ -3,81 +3,106 @@
 !! The Lithuanian language verbs have classes.
 
 LEXICON Verb_Classes
-+V+VC1: Verbs_C1     ;
++V+VC11: Verbs_C11     ;
++V+VC12: Verbs_C12
 +V+VC2: Verbs_C2     ;
 +V+VC3: Verbs_C3      ;
 
-LEXICON Verbs_C1
-+Pres: ;
-+Pst: ;
+LEXICON Verbs_C11
++Pres: Conj_a ;
++Pst: Conj_o ;
++FPst: Freq_Past ;
++Fut: Future ;
++Cond: Subjunctive ;
++Imprt: Imperative ;
+
+LEXICON Verbs_C12
++Pres: Conj_ia ;
++Pst: Conj_e ;
 +FPst: Freq_Past ;
 +Fut: Future ;
 +Cond: Subjunctive ;
 +Imprt: Imperative ;
 
 LEXICON Verbs_C2
-+Pres: ;
-+Pst: ;
++Pres: Conj_i ;
++Pst: Conj_o ;
 +FPst: Freq_Past ;
 +Fut: Future ;
 +Cond: Subjunctive ;
 +Imprt: Imperative ;
 
 LEXICON Verbs_C3
-+Pres: ;
-+Pst: ;
++Pres: Conj_o ;
++Pst: Conj_e ;
 +FPst: Freq_Past ;
 +Fut: Future ;
 +Cond: Subjunctive ;
 +Imprt: Imperative ;
 
+LEXICON Refl_1
++Sg1:si # ;
++Sg2:si # ;
++Sg3:si # ;
++Pl1:s # ;
++Pl2:s # ;
++Pl3:si # ;
+
+LEXICON Refl_2
++Sg1:osi # ;
++Sg2:si # ;
++Sg3:si # ;
++Pl1:s # ;
++Pl2:s # ;
++Pl3:si # ;
+
 LEXICON Conj_a
-+Sg1: # ;
-+Sg2: # ;
-+Sg3: # ;
-+Pl1: # ;
-+Pl2: # ;
-+Pl3: # ;
++Sg1:u # ;
++Sg2:i # ;
++Sg3:a # ;
++Pl1:ame # ;
++Pl2:ate # ;
++Pl3:a # ;
 
 LEXICON Conj_ia
-+Sg1: # ;
-+Sg2: # ;
-+Sg3: # ;
-+Pl1: # ;
-+Pl2: # ;
-+Pl3: # ;
++Sg1:iu # ;
++Sg2:i # ;
++Sg3:ia # ;
++Pl1:iame # ;
++Pl2:iate # ;
++Pl3:ia # ;
 
 LEXICON Conj_o
-+Sg1: # ;
-+Sg2: # ;
-+Sg3: # ;
-+Pl1: # ;
-+Pl2: # ;
-+Pl3: # ;
++Sg1:au # ;
++Sg2:ai # ;
++Sg3:o # ;
++Pl1:ome # ;
++Pl2:ote # ;
++Pl3:o # ;
 
 LEXICON Conj_i
-+Sg1: # ;
-+Sg2: # ;
-+Sg3: # ;
-+Pl1: # ;
-+Pl2: # ;
-+Pl3: # ;
++Sg1:iu # ;
++Sg2:i # ;
++Sg3:i # ;
++Pl1:ime # ;
++Pl2:ite # ;
++Pl3:i # ;
 
 LEXICON Conj_e
-+Sg1: # ;
-+Sg2: # ;
-+Sg3: # ;
-+Pl1: # ;
-+Pl2: # ;
-+Pl3: # ;
++Sg1:iau # ;
++Sg2:ei # ;
++Sg3:ė # ;
++Pl1:ėme # ;
++Pl2:ėte # ;
++Pl3:ė # ;
 
 LEXICON Freq_Past
-+Sg1: # ;
-+Sg2: # ;
-+Sg3: # ;
-+Pl1: # ;
-+Pl2: # ;
-+Pl3: # ;
++Sg1:davau # ;
++Sg2:davai # ;
++Sg3:davo # ;
++Pl1:davome # ;
++Pl2:davote # ;
++Pl3:davo # ;
 
 LEXICON Future
 +Sg1:siu # ;
