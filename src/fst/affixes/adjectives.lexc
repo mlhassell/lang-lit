@@ -2,11 +2,12 @@
 !  --------------------
 !! The Lithuanian language adjectives are divided in 3 classes and decline into 6 cases.
 
+!! TODO delete this
 ! Lexicon declaring 3 classes of adjectives
-LEXICON Adj_Classes
-+A+AC1: ;
-+A+AC2: ;
-+A+AC3: ;
+!LEXICON Adj_Classes
+!+A+AC1: ;
+!+A+AC2: ;
+!+A+AC3: ;
 
 LEXICON Adj_Form
 +A+AC1+Pos: Adj_Pos_1 ;
