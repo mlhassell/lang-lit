@@ -3,6 +3,22 @@
 !! Nouns in the Lithuanian language are things.
 
 LEXICON Nouns
-noun    Cases   ;
+vyr Noun_C11 ;
+vaik Noun_C11 ;
+kelm Noun_C11 ;
+brol Noun_C12 ;
+arkl Noun_C13 ;
+lap Noun_C22 ;
+rank Noun_C21 ;
+mart Noun_C23 ;
+ak Noun_C31 ;
+dant Noun_C32 ;
+sūn Noun_C41 ;
+profesor Noun_C42 ;
+akm Noun_C51 ;
+ses Noun_C52 ;
+duk Noun_C53 ;
+Antan Noun_C11_Anim ;
+# ;
 
 ! vim: set ft=xfst-lexc:

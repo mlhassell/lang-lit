@@ -2,12 +2,6 @@
 !  ---------------
 !! The Lithuanian language verbs have classes.
 
-!! TODO delete
-!LEXICON Verb_Classes
-!+V+VC11: Verbs_C11     ;
-!+V+VC12: Verbs_C12  ;
-!+V+VC2: Verbs_C2     ;
-!+V+VC3: Verbs_C3      ;
 
 LEXICON Verbs_C11
 +Pres: Conj_a ;
@@ -27,7 +21,7 @@ LEXICON Verbs_C12
 
 LEXICON Verbs_C2
 +Pres: Conj_i ;
-+Pst: Conj_o ;
++Pst: Conj_ejo ;
 +FPst: Freq_Past ;
 +Fut: Future ;
 +Cond: Subjunctive ;
@@ -41,21 +35,37 @@ LEXICON Verbs_C3
 +Cond: Subjunctive ;
 +Imprt: Imperative ;
 
-LEXICON Refl_1
-+Sg1:si # ;
-+Sg2:si # ;
-+Sg3:si # ;
-+Pl1:s # ;
-+Pl2:s # ;
-+Pl3:si # ;
+LEXICON Verbs_C11R
++Pres: Conj_aR ;
++Pst: Conj_oR ;
++FPst: Freq_PastR ;
++Fut: FutureR ;
++Cond: SubjunctiveR ;
++Imprt: ImperativeR ;
 
-LEXICON Refl_2
-+Sg1:osi # ;
-+Sg2:si # ;
-+Sg3:si # ;
-+Pl1:s # ;
-+Pl2:s # ;
-+Pl3:si # ;
+LEXICON Verbs_C12R
++Pres: Conj_iaR ;
++Pst: Conj_eR ;
++FPst: Freq_PastR ;
++Fut: FutureR ;
++Cond: SubjunctiveR ;
++Imprt: ImperativeR ;
+
+LEXICON Verbs_C2R
++Pres: Conj_iR ;
++Pst: Conj_ejoR ;
++FPst: Freq_PastR ;
++Fut: FutureR ;
++Cond: SubjunctiveR ;
++Imprt: ImperativeR ;
+
+LEXICON Verbs_C3R
++Pres: Conj_oR ;
++Pst: Conj_eR ;
++FPst: Freq_PastR ;
++Fut: FutureR ;
++Cond: SubjunctiveR ;
++Imprt: ImperativeR ;
 
 LEXICON Conj_a
 +Sg1:u # ;
@@ -81,6 +91,14 @@ LEXICON Conj_o
 +Pl2:ote # ;
 +Pl3:o # ;
 
+LEXICON Conj_ejo
++Sg1:ėjau # ;
++Sg2:ėjai # ;
++Sg3:ėjo # ;
++Pl1:ėjome # ;
++Pl2:ėjote # ;
++Pl3:ėjo # ;
+
 LEXICON Conj_i
 +Sg1:iu # ;
 +Sg2:i # ;
@@ -97,6 +115,54 @@ LEXICON Conj_e
 +Pl2:ėte # ;
 +Pl3:ė # ;
 
+LEXICON Conj_aR
++Sg1:uosi # ;
++Sg2:iesi # ;
++Sg3:asi # ;
++Pl1:amės # ;
++Pl2:atės # ;
++Pl3:asi # ;
+
+LEXICON Conj_iaR
++Sg1:iuosi # ;
++Sg2:iesi # ;
++Sg3:iasi # ;
++Pl1:iamės # ;
++Pl2:iatės # ;
++Pl3:iasi # ;
+
+LEXICON Conj_oR
++Sg1:ausi # ;
++Sg2:aisi # ;
++Sg3:osi # ;
++Pl1:omės # ;
++Pl2:otės # ;
++Pl3:osi # ;
+
+LEXICON Conj_ejoR
++Sg1:ėjausi # ;
++Sg2:ėjaisi # ;
++Sg3:ėjosi # ;
++Pl1:ėjomės # ;
++Pl2:ėjotės # ;
++Pl3:ėjosi # ;
+
+LEXICON Conj_iR
++Sg1:iuosi # ;
++Sg2:iesi # ;
++Sg3:isi # ;
++Pl1:imės # ;
++Pl2:itės # ;
++Pl3:isi # ;
+
+LEXICON Conj_eR
++Sg1:iausi # ;
++Sg2:eisi # ;
++Sg3:ėsi # ;
++Pl1:ėmės # ;
++Pl2:ėtės # ;
++Pl3:ėsi # ;
+
 LEXICON Freq_Past
 +Sg1:davau # ;
 +Sg2:davai # ;
@@ -104,6 +170,14 @@ LEXICON Freq_Past
 +Pl1:davome # ;
 +Pl2:davote # ;
 +Pl3:davo # ;
+
+LEXICON Freq_PastR
++Sg1:davausi # ;
++Sg2:davaisi # ;
++Sg3:davosi # ;
++Pl1:davomės # ;
++Pl2:davotės # ;
++Pl3:davosi # ;
 
 LEXICON Future
 +Sg1:siu # ;
@@ -113,6 +187,14 @@ LEXICON Future
 +Pl2:site # ;
 +Pl3:s # ;
 
+LEXICON FutureR
++Sg1:siuosi # ;
++Sg2:siesi # ;
++Sg3:sis # ;
++Pl1:simės # ;
++Pl2:sitės # ;
++Pl3:sis # ;
+
 LEXICON Subjunctive
 +Sg1:čiau # ;
 +Sg2:tum # ;
@@ -121,11 +203,26 @@ LEXICON Subjunctive
 +Pl2:tumėte # ;
 +Pl3:tų # ;
 
+LEXICON SubjunctiveR
++Sg1:čiausi # ;
++Sg2:tumeisi # ;
++Sg3:tųs # ;
++Pl1:tumės # ;
++Pl2:tumėtės # ;
++Pl3:tųs # ;
+
 LEXICON Imperative
 +Sg2:k # ;  ! can also be ki
 !+Sg3: # ;  ! weird form?
 +Pl1:kime # ;
 +Pl2:kite # ;
+!+Pl3: # ;
+
+LEXICON ImperativeR
++Sg2:kis # ;  ! can also be ki
+!+Sg3: # ;  ! weird form?
++Pl1:kimės # ;
++Pl2:kitės # ;
 !+Pl3: # ;
 
 

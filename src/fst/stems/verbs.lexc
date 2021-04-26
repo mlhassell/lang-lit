@@ -3,6 +3,18 @@
 !! Verbs in the Lithuanian language are actions.
 
 LEXICON Verbs
-verb    Persons   ;
+gyven Verbs_C11 ;
+dirb Verbs_C11 ;
+lauk Verbs_C12 ;
+baig Verbs_C12 ;
+nor Verbs_C2 ;
+myl Verbs_C2 ;
+gal Verbs_C2 ;
+tur Verbs_C2 ;
+dar Verbs_C3 ;
+mat Verbs_C3 ;
+skait Verbs_C3 ;
+mok Verbs_C3R ;
+baig Verbs_C12R ;
 
 ! vim: set ft=xfst-lexc:

@@ -3,258 +3,256 @@
 
 !! The Lithuanian language has 5 classes of nouns, which have sub-classes
 
-!Lexicon declaring noun classes
-LEXICON Noun_Classes
-+N+NC11: Noun_C11 ;
-+N+NC12: Noun_C12 ;
-+N+NC13: Noun_C13 ;
-+N+NC21: Noun_C21 ;
-+N+NC22: Noun_C22 ;
-+N+NC23: Noun_C23 ;
-+N+NC31: Noun_C31 ;
-+N+NC32: Noun_C32 ;
-+N+NC41: Noun_C41 ;
-+N+NC42: Noun_C42 ;
-+N+NC51: Noun_C51 ;
-+N+NC52: Noun_C52 ;
-+N+NC53: Noun_C53 ;
-
+LEXICON Noun_C11_Anim
++N+Sg+Nom:as   #     ;
+ +N+Sg+Gen:o   #     ;
+ +N+Sg+Dat:ui   #     ;
+ +N+Sg+Acc:ą   #     ;
+ +N+Sg+Ins:u   #     ;
+ +N+Sg+Loc:e   #     ;
+ +N+Sg+Voc:ai   #     ;  
+ +N+Pl+Nom:ai   #     ;
+ +N+Pl+Gen:ų   #     ;
+ +N+Pl+Dat:ams   #     ;
+ +N+Pl+Acc:us   #     ;
+ +N+Pl+Ins:ais   #     ;
+ +N+Pl+Loc:uose   #     ;
+ +N+Pl+Voc:ai   #     ;
 
 !! The Lithuanian language nouns inflect in 7 cases.
 
 ! Declensions for Nouns, Class 1.1
 ! 1.1 Nouns are always masculine
 LEXICON Noun_C11
- +Sg+Nom:as   #     ;
- +Sg+Gen:o   #     ;
- +Sg+Dat:ui   #     ;
- +Sg+Acc:ą   #     ;
- +Sg+Ins:u   #     ;
- +Sg+Loc:e   #     ;
- +Sg+Voc:e   #     ;
- !+Sg+Voc:ai   #     ;  !!! 1.1 nouns have a different vocative for animate vs. inanimate
- +Pl+Nom:ai   #     ;
- +Pl+Gen:ų   #     ;
- +Pl+Dat:ams   #     ;
- +Pl+Acc:us   #     ;
- +Pl+Ins:ais   #     ;
- +Pl+Loc:uose   #     ;
- +Pl+Voc:ai   #     ;
+ +N+Sg+Nom:as   #     ;
+ +N+Sg+Gen:o   #     ;
+ +N+Sg+Dat:ui   #     ;
+ +N+Sg+Acc:ą   #     ;
+ +N+Sg+Ins:u   #     ;
+ +N+Sg+Loc:e   #     ;
+ +N+Sg+Voc:e   #     ;
+ +N+Pl+Nom:ai   #     ;
+ +N+Pl+Gen:ų   #     ;
+ +N+Pl+Dat:ams   #     ;
+ +N+Pl+Acc:us   #     ;
+ +N+Pl+Ins:ais   #     ;
+ +N+Pl+Loc:uose   #     ;
+ +N+Pl+Voc:ai   #     ;
 
 ! Declensions for Nouns, Class 1.2
 ! 1.2 Nouns are always masculine
 LEXICON Noun_C12
- +Sg+Nom:is   #     ;
- +Sg+Gen:io   #     ;
- +Sg+Dat:iui   #     ;
- +Sg+Acc:į   #     ;
- +Sg+Ins:iu   #     ;
- +Sg+Loc:yje   #     ;
- +Sg+Voc:i   #     ;
- +Pl+Nom:iai   #     ;
- +Pl+Gen:ių   #     ;
- +Pl+Dat:iams   #     ;
- +Pl+Acc:ius   #     ;
- +Pl+Ins:iais   #     ;
- +Pl+Loc:iuose   #     ;
- +Pl+Voc:iai   #     ;
+ +N+Sg+Nom:is   #     ;
+ +N+Sg+Gen:io   #     ;
+ +N+Sg+Dat:iui   #     ;
+ +N+Sg+Acc:į   #     ;
+ +N+Sg+Ins:iu   #     ;
+ +N+Sg+Loc:yje   #     ;
+ +N+Sg+Voc:i   #     ;
+ +N+Pl+Nom:iai   #     ;
+ +N+Pl+Gen:ių   #     ;
+ +N+Pl+Dat:iams   #     ;
+ +N+Pl+Acc:ius   #     ;
+ +N+Pl+Ins:iais   #     ;
+ +N+Pl+Loc:iuose   #     ;
+ +N+Pl+Voc:iai   #     ;
 
 ! Declensions for Nouns, Class 1.3
 ! 1.3 Nouns are always masculine
 LEXICON Noun_C13
- +Sg+Nom:ys   #     ;
- +Sg+Gen:io   #     ;
- +Sg+Dat:iui   #     ;
- +Sg+Acc:į   #     ;
- +Sg+Ins:iu   #     ;
- +Sg+Loc:yje   #     ;
- +Sg+Voc:y   #     ;
- +Pl+Nom:iai   #     ;
- +Pl+Gen:ių   #     ;
- +Pl+Dat:iams   #     ;
- +Pl+Acc:ius   #     ;
- +Pl+Ins:iais   #     ;
- +Pl+Loc:iuose   #     ;
- +Pl+Voc:iai   #     ;
+ +N+Sg+Nom:ys   #     ;
+ +N+Sg+Gen:io   #     ;
+ +N+Sg+Dat:iui   #     ;
+ +N+Sg+Acc:į   #     ;
+ +N+Sg+Ins:iu   #     ;
+ +N+Sg+Loc:yje   #     ;
+ +N+Sg+Voc:y   #     ;
+ +N+Pl+Nom:iai   #     ;
+ +N+Pl+Gen:ių   #     ;
+ +N+Pl+Dat:iams   #     ;
+ +N+Pl+Acc:ius   #     ;
+ +N+Pl+Ins:iais   #     ;
+ +N+Pl+Loc:iuose   #     ;
+ +N+Pl+Voc:iai   #     ;
 
 ! Declensions for Nouns, Class 2.1
 ! 2.1 Nouns are always feminine
 LEXICON Noun_C21
- +Sg+Nom:a   #     ;
- +Sg+Gen:os   #     ;
- +Sg+Dat:ai   #     ;
- +Sg+Acc:ą   #     ;
- +Sg+Ins:a   #     ;
- +Sg+Loc:oje   #     ;
- +Sg+Voc:a   #     ;
- +Pl+Nom:os   #     ;
- +Pl+Gen:ų   #     ;
- +Pl+Dat:oms   #     ;
- +Pl+Acc:as   #     ;
- +Pl+Ins:omis   #     ;
- +Pl+Loc:ose   #     ;
- +Pl+Voc:os   #     ;
+ +N+Sg+Nom:a   #     ;
+ +N+Sg+Gen:os   #     ;
+ +N+Sg+Dat:ai   #     ;
+ +N+Sg+Acc:ą   #     ;
+ +N+Sg+Ins:a   #     ;
+ +N+Sg+Loc:oje   #     ;
+ +N+Sg+Voc:a   #     ;
+ +N+Pl+Nom:os   #     ;
+ +N+Pl+Gen:ų   #     ;
+ +N+Pl+Dat:oms   #     ;
+ +N+Pl+Acc:as   #     ;
+ +N+Pl+Ins:omis   #     ;
+ +N+Pl+Loc:ose   #     ;
+ +N+Pl+Voc:os   #     ;
 
  ! Declensions for Nouns, Class 2.2
  ! 2.2 Nouns are always feminine
 LEXICON Noun_C22
- +Sg+Nom:ė   #     ;
- +Sg+Gen:ės   #     ;
- +Sg+Dat:ei   #     ;
- +Sg+Acc:ę   #     ;
- +Sg+Ins:e   #     ;
- +Sg+Loc:ėje   #     ;
- +Sg+Voc:e   #     ;
- +Pl+Nom:ės   #     ;
- +Pl+Gen:ių   #     ;
- +Pl+Dat:ėms   #     ;
- +Pl+Acc:es   #     ;
- +Pl+Ins:ėmis   #     ;
- +Pl+Loc:ėse   #     ;
- +Pl+Voc:ės   #     ;
+ +N+Sg+Nom:ė   #     ;
+ +N+Sg+Gen:ės   #     ;
+ +N+Sg+Dat:ei   #     ;
+ +N+Sg+Acc:ę   #     ;
+ +N+Sg+Ins:e   #     ;
+ +N+Sg+Loc:ėje   #     ;
+ +N+Sg+Voc:e   #     ;
+ +N+Pl+Nom:ės   #     ;
+ +N+Pl+Gen:ių   #     ;
+ +N+Pl+Dat:ėms   #     ;
+ +N+Pl+Acc:es   #     ;
+ +N+Pl+Ins:ėmis   #     ;
+ +N+Pl+Loc:ėse   #     ;
+ +N+Pl+Voc:ės   #     ;
 
  ! Declensions for Nouns, Class 2.3
  ! 2.3 Nouns are always feminine
 LEXICON Noun_C23
- +Sg+Nom:i   #     ;
- +Sg+Gen:ios   #     ;
- +Sg+Dat:iai   #     ;
- +Sg+Acc:ią   #     ;
- +Sg+Ins:ia   #     ;
- +Sg+Loc:ioje   #     ;
- +Sg+Voc:i   #     ;
- +Pl+Nom:ios   #     ;
- +Pl+Gen:ių   #     ;
- +Pl+Dat:ioms   #     ;
- +Pl+Acc:ias   #     ;
- +Pl+Ins:iomis   #     ;
- +Pl+Loc:iose   #     ;
- +Pl+Voc:ios   #     ;
+ +N+Sg+Nom:i   #     ;
+ +N+Sg+Gen:ios   #     ;
+ +N+Sg+Dat:iai   #     ;
+ +N+Sg+Acc:ią   #     ;
+ +N+Sg+Ins:ia   #     ;
+ +N+Sg+Loc:ioje   #     ;
+ +N+Sg+Voc:i   #     ;
+ +N+Pl+Nom:ios   #     ;
+ +N+Pl+Gen:ių   #     ;
+ +N+Pl+Dat:ioms   #     ;
+ +N+Pl+Acc:ias   #     ;
+ +N+Pl+Ins:iomis   #     ;
+ +N+Pl+Loc:iose   #     ;
+ +N+Pl+Voc:ios   #     ;
 
 ! Declensions for Nouns, Class 3.1
 ! 3.1 Nouns are always feminine
 LEXICON Noun_C31
- +Sg+Nom:is   #     ;
- +Sg+Gen:ies   #     ;
- +Sg+Dat:iai   #     ;
- +Sg+Acc:į   #     ;
- +Sg+Ins:imi   #     ;
- +Sg+Loc:yje   #     ;
- +Sg+Voc:ie   #     ;
- +Pl+Nom:ys   #     ;
- +Pl+Gen:ių   #     ;
- +Pl+Dat:ims   #     ;
- +Pl+Acc:is   #     ;
- +Pl+Ins:imis   #     ;
- +Pl+Loc:yse   #     ;
- +Pl+Voc:ys   #     ;
+ +N+Sg+Nom:is   #     ;
+ +N+Sg+Gen:ies   #     ;
+ +N+Sg+Dat:iai   #     ;
+ +N+Sg+Acc:į   #     ;
+ +N+Sg+Ins:imi   #     ;
+ +N+Sg+Loc:yje   #     ;
+ +N+Sg+Voc:ie   #     ;
+ +N+Pl+Nom:ys   #     ;
+ +N+Pl+Gen:ių   #     ;
+ +N+Pl+Dat:ims   #     ;
+ +N+Pl+Acc:is   #     ;
+ +N+Pl+Ins:imis   #     ;
+ +N+Pl+Loc:yse   #     ;
+ +N+Pl+Voc:ys   #     ;
 
  ! Declensions for Nouns, Class 3.2
  ! 3.2 Nouns are always masculine
 LEXICON Noun_C32
- +Sg+Nom:is   #     ;
- +Sg+Gen:ies   #     ;
- +Sg+Dat:iui   #     ;
- +Sg+Acc:į   #     ;
- +Sg+Ins:imi   #     ;
- +Sg+Loc:yje   #     ;
- +Sg+Voc:ie   #     ;
- +Pl+Nom:ys   #     ;
- +Pl+Gen:ų   #     ;
- +Pl+Dat:ims   #     ;
- +Pl+Acc:is   #     ;
- +Pl+Ins:imis   #     ;
- +Pl+Loc:yse   #     ;
- +Pl+Voc:ys   #     ;
+ +N+Sg+Nom:is   #     ;
+ +N+Sg+Gen:ies   #     ;
+ +N+Sg+Dat:iui   #     ;
+ +N+Sg+Acc:į   #     ;
+ +N+Sg+Ins:imi   #     ;
+ +N+Sg+Loc:yje   #     ;
+ +N+Sg+Voc:ie   #     ;
+ +N+Pl+Nom:ys   #     ;
+ +N+Pl+Gen:ų   #     ;
+ +N+Pl+Dat:ims   #     ;
+ +N+Pl+Acc:is   #     ;
+ +N+Pl+Ins:imis   #     ;
+ +N+Pl+Loc:yse   #     ;
+ +N+Pl+Voc:ys   #     ;
 
 ! Declensions for Nouns, Class 4.1
 LEXICON Noun_C41
- +Sg+Nom:us   #     ;
- +Sg+Gen:aus   #     ;
- +Sg+Dat:ui   #     ;
- +Sg+Acc:ų   #     ;
- +Sg+Ins:umi   #     ;
- +Sg+Loc:uje   #     ;
- +Sg+Voc:au   #     ;
- +Pl+Nom:ūs   #     ;
- +Pl+Gen:ų   #     ;
- +Pl+Dat:ums   #     ;
- +Pl+Acc:us   #     ;
- +Pl+Ins:umis   #     ;
- +Pl+Loc:uose   #     ;
- +Pl+Voc:ūs   #     ;
+ +N+Sg+Nom:us   #     ;
+ +N+Sg+Gen:aus   #     ;
+ +N+Sg+Dat:ui   #     ;
+ +N+Sg+Acc:ų   #     ;
+ +N+Sg+Ins:umi   #     ;
+ +N+Sg+Loc:uje   #     ;
+ +N+Sg+Voc:au   #     ;
+ +N+Pl+Nom:ūs   #     ;
+ +N+Pl+Gen:ų   #     ;
+ +N+Pl+Dat:ums   #     ;
+ +N+Pl+Acc:us   #     ;
+ +N+Pl+Ins:umis   #     ;
+ +N+Pl+Loc:uose   #     ;
+ +N+Pl+Voc:ūs   #     ;
 
  ! Declensions for Nouns, Class 4.2
 LEXICON Noun_C42
- +Sg+Nom:ius   #     ;
- +Sg+Gen:iaus   #     ;
- +Sg+Dat:iui   #     ;
- +Sg+Acc:ių   #     ;
- +Sg+Ins:iumi   #     ;
- +Sg+Loc:iuje   #     ;
- +Sg+Voc:iau   #     ;
- +Pl+Nom:iai   #     ;
- +Pl+Gen:ių   #     ;
- +Pl+Dat:iams   #     ;
- +Pl+Acc:ius   #     ;
- +Pl+Ins:iais   #     ;
- +Pl+Loc:iuose   #     ;
- +Pl+Voc:iai   #     ;
+ +N+Sg+Nom:ius   #     ;
+ +N+Sg+Gen:iaus   #     ;
+ +N+Sg+Dat:iui   #     ;
+ +N+Sg+Acc:ių   #     ;
+ +N+Sg+Ins:iumi   #     ;
+ +N+Sg+Loc:iuje   #     ;
+ +N+Sg+Voc:iau   #     ;
+ +N+Pl+Nom:iai   #     ;
+ +N+Pl+Gen:ių   #     ;
+ +N+Pl+Dat:iams   #     ;
+ +N+Pl+Acc:ius   #     ;
+ +N+Pl+Ins:iais   #     ;
+ +N+Pl+Loc:iuose   #     ;
+ +N+Pl+Voc:iai   #     ;
 
 ! Declensions for Nouns, Class 5.1
 ! 5.1 Nouns are always masculine
 LEXICON Noun_C51
- +Sg+Nom:uo   #     ;
- +Sg+Gen:ens   #     ;
- +Sg+Dat:eniui   #     ;
- +Sg+Acc:enį   #     ;
- +Sg+Ins:eniu   #     ;
- +Sg+Loc:enyje   #     ;
- +Sg+Voc:enie   #     ;
- +Pl+Nom:enys   #     ;
- +Pl+Gen:enų   #     ;
- +Pl+Dat:enims   #     ;
- +Pl+Acc:enis   #     ;
- +Pl+Ins:enimis   #     ;
- +Pl+Loc:enyse   #     ;
- +Pl+Voc:enys   #     ;
+ +N+Sg+Nom:uo   #     ;
+ +N+Sg+Gen:ens   #     ;
+ +N+Sg+Dat:eniui   #     ;
+ +N+Sg+Acc:enį   #     ;
+ +N+Sg+Ins:eniu   #     ;
+ +N+Sg+Loc:enyje   #     ;
+ +N+Sg+Voc:enie   #     ;
+ +N+Pl+Nom:enys   #     ;
+ +N+Pl+Gen:enų   #     ;
+ +N+Pl+Dat:enims   #     ;
+ +N+Pl+Acc:enis   #     ;
+ +N+Pl+Ins:enimis   #     ;
+ +N+Pl+Loc:enyse   #     ;
+ +N+Pl+Voc:enys   #     ;
 
  ! Declensions for Nouns, Class 5.2
  ! 5.2 Nouns are always feminine
 LEXICON Noun_C52
- +Sg+Nom:uo   #     ;
- +Sg+Gen:ers   #     ;
- +Sg+Dat:eriai   #     ;
- +Sg+Acc:erį   #     ;
- +Sg+Ins:eria   #     ;
- +Sg+Loc:eryje   #     ;
- +Sg+Voc:erie   #     ;
- +Pl+Nom:erys   #     ;
- +Pl+Gen:erų   #     ;
- +Pl+Dat:erims   #     ;
- +Pl+Acc:eris   #     ;
- +Pl+Ins:erimis   #     ;
- +Pl+Loc:eryse   #     ;
- +Pl+Voc:erys   #     ;
+ +N+Sg+Nom:uo   #     ;
+ +N+Sg+Gen:ers   #     ;
+ +N+Sg+Dat:eriai   #     ;
+ +N+Sg+Acc:erį   #     ;
+ +N+Sg+Ins:eria   #     ;
+ +N+Sg+Loc:eryje   #     ;
+ +N+Sg+Voc:erie   #     ;
+ +N+Pl+Nom:erys   #     ;
+ +N+Pl+Gen:erų   #     ;
+ +N+Pl+Dat:erims   #     ;
+ +N+Pl+Acc:eris   #     ;
+ +N+Pl+Ins:erimis   #     ;
+ +N+Pl+Loc:eryse   #     ;
+ +N+Pl+Voc:erys   #     ;
 
 
  ! Declensions for Nouns, Class 5.3
  ! 5.23 Nouns are always feminine
 LEXICON Noun_C53
- +Sg+Nom:ė   #     ;
- +Sg+Gen:ers   #     ;
- +Sg+Dat:eriai   #     ;
- +Sg+Acc:erį   #     ;
- +Sg+Ins:eria   #     ;
- +Sg+Loc:eryje   #     ;
- +Sg+Voc:erie   #     ;
-  +Pl+Nom:erys   #     ;
- +Pl+Gen:erų   #     ;
- +Pl+Dat:erims   #     ;
- +Pl+Acc:eris   #     ;
- +Pl+Ins:erimis   #     ;
- +Pl+Loc:eryse   #     ;
- +Pl+Voc:erys   #     ;
+ +N+Sg+Nom:ė   #     ;
+ +N+Sg+Gen:ers   #     ;
+ +N+Sg+Dat:eriai   #     ;
+ +N+Sg+Acc:erį   #     ;
+ +N+Sg+Ins:eria   #     ;
+ +N+Sg+Loc:eryje   #     ;
+ +N+Sg+Voc:erie   #     ;
+ +N+Pl+Nom:erys   #     ;
+ +N+Pl+Gen:erų   #     ;
+ +N+Pl+Dat:erims   #     ;
+ +N+Pl+Acc:eris   #     ;
+ +N+Pl+Ins:erimis   #     ;
+ +N+Pl+Loc:eryse   #     ;
+ +N+Pl+Voc:erys   #     ;
 
 ! vim: set ft=xfst-lexc:
 
