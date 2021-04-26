@@ -1,0 +1,23 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+  Noun - vyr - ok : # singular declensions for vyras
+    vyr+N+Nom+Sg: vyras 
+    vyr+N+Gen+Sg: vyro 
+    vyr+N+Dat+Sg: vyrui
+    vyr+N+Acc+Sg: vyrą
+    vyr+N+Ins+Sg: vyru
+    vyr+N+Loc+Sg: vyre
+    vyr+N+Nom+Pl: vyrai 
+    vyr+N+Gen+Pl: vyrų
+    vyr+N+Dat+Pl: vyrams
+    vyr+N+Acc+Pl: vyrus
+    vyr+N+Ins+Pl: vyrais
+    vyr+N+Loc+Pl: vyruose

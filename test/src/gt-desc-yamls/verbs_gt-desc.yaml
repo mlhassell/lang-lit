@@ -1,0 +1,23 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+  Verb - myl - ok : # singular declensions for vyras
+    myl+V+Pres+Sg1: myliu
+    myl+V+Pres+Sg2: myli
+    myl+V+Pres+Sg3: myli
+    myl+V+Pres+Pl1: mylime
+    myl+V+Pres+Pl2: mylite
+    myl+V+Pres+Pl3: myli
+    myl+V+Past+Sg1: mylėjau
+    myl+V+Past+Sg2: mylėjai
+    myl+V+Past+Sg3: mylėjo
+    myl+V+Past+Pl1: mylėjome
+    myl+V+Past+Pl2: mylėjote
+    myl+V+Past+Pl3: mylėjo
