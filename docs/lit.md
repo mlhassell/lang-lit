@@ -14,17 +14,14 @@ The parts-of-speech are:
 
 The nominals are inflected in the following Case, Gender, and Number
 
-The classes for nouns are: 
-
 
 The comparative forms are:
 THe definitive form is:
 Numerals are classified under:
-The classes for adjectives are:
+
 
 
 Verb personal forms are:
-The classes for verbs are:
 The verb conjugation patterns are:
 Verbs can be reflexive
 
