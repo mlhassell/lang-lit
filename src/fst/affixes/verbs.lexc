@@ -67,6 +67,14 @@ LEXICON Verbs_C3R
 +Cond: SubjunctiveR ;
 +Imprt: ImperativeR ;
 
+LEXICON Verbs_kalb
++Pres: Conj_a ;
++Pst: Conj_ejo ;
++FPst: Freq_Past ;
++Fut: Future ;
++Cond: Subjunctive ;
++Imprt: Imperative ;
+
 LEXICON Conj_a
 +Sg1:u # ;
 +Sg2:i # ;
@@ -225,6 +233,37 @@ LEXICON ImperativeR
 +Pl2:kitės # ;
 !+Pl3: # ;
 
+LEXICON Conj_ja
++Sg1:ju # ;
++Sg2:ji # ;
++Sg3:ja # ;
++Pl1:jame # ;
++Pl2:jate # ;
++Pl3:ja # ;
+
+LEXICON Conj_jo
++Sg1:jau # ;
++Sg2:jai # ;
++Sg3:jo # ;
++Pl1:jome # ;
++Pl2:jote # ;
++Pl3:jo # ;
+
+LEXICON Conj_jaR
++Sg1:juosi # ;
++Sg2:jiesi # ;
++Sg3:jasi # ;
++Pl1:jamės # ;
++Pl2:jatės # ;
++Pl3:jasi # ;
+
+LEXICON Conj_joR
++Sg1:jausi # ;
++Sg2:jaisi # ;
++Sg3:josi # ;
++Pl1:jomės # ;
++Pl2:jotės # ;
++Pl3:josi # ;
 
 ! vim: set ft=xfst-lexc:
 

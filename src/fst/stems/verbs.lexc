@@ -16,5 +16,6 @@ mat Verbs_C3 ;
 skait Verbs_C3 ;
 mok Verbs_C3R ;
 baig Verbs_C12R ;
+kalb Verbs_kalb ;
 
 ! vim: set ft=xfst-lexc:
