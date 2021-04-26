@@ -1,0 +1,23 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+  Adjective - ger - ok : # singular declensions for vyras
+    ger+A+Nom+Sg: geras 
+    ger+A+Gen+Sg: gero
+    ger+A+Dat+Sg: geram
+    ger+A+Acc+Sg: gerą
+    ger+A+Ins+Sg: geru
+    ger+A+Loc+Sg: gerame
+    ger+A+Nom+Pl: geri  
+    ger+A+Gen+Pl: gerų
+    ger+A+Dat+Pl: geriems
+    ger+A+Acc+Pl: gerus
+    ger+A+Ins+Pl: gerais
+    ger+A+Loc+Pl: geruose
