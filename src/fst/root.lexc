@@ -36,9 +36,6 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +Nom +Gen +Dat +Acc +Ins +Loc +Voc
  +Msc +Fem
 
-!! The classes for nouns are: 
-+NC11 +NC12 +NC13 +NC21 +NC22 +NC23 +NC31 +NC32 +NC41 +NC42 +NC51 +NC52 +NC53
-
 
 !! The comparative forms are:
  +Pos +Comp +Superl
@@ -47,14 +44,11 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! Numerals are classified under:
  +Card
  +Ord 
- !! The classes for adjectives are:
-+AC1 +AC2 +AC3
+
  
 
 !! Verb personal forms are:
  +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
-!! The classes for verbs are:
- +VC1 +VC2 +VC3
 !! The verb conjugation patterns are:
  +Pres +Pst +FPst +Fut +Cond +Imprt
  !! Verbs can be reflexive
