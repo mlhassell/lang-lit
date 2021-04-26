@@ -35,6 +35,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +Sg +Pl            ! Might need to add dual +Du
  +Nom +Gen +Dat +Acc +Ins +Loc +Voc
  +Msc +Fem
+ +Poss
 
 
 !! The comparative forms are:
