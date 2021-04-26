@@ -1,0 +1,81 @@
+LEXICON Pronouns
++Pron+1Sg: Pron_1Sg ;
++Pron+2Sg: Pron_2Sg ;
++Pron+3Sg: Pron_3Sg ;
++Pron+1Pl: Pron_1Pl ;
++Pron+2Pl: Pron_2Pl ;
++Pron+3Pl: Pron_3Pl ;
+
+LEXICON Pron_1Sg
++Nom:aš ;
++Gen:manęs ;
++Dat:man ;
++Acc:mane ;
++Ins:manimi ;
++Loc:manyje ;
++Poss:mano ;
+
+LEXICON Pron_2Sg
++Nom:tu ;
++Gen:tavęs ;
++Dat:tau ;
++Acc:tave ;
++Ins:tavimi ;
++Loc:tavyje ;
++Poss:tavo ;
+
+LEXICON Pron_3Sg
++Msc: Pron_3Sg_M ;
++Fem: Pron_3Sg_F ;
+
+LEXICON Pron_3Sg_M
++Nom:jis ;
++Gen:jo ;
++Dat:jam ;
++Acc:jį ;
++Ins:juo ;
++Loc:jame ;
+
+LEXICON Pron_3Sg_F
++Nom:ji ;
++Gen:jos ;
++Dat:jai ;
++Acc:ją ;
++Ins:ja ;
++Loc:joje ;
+
+LEXICON Pron_1Pl
++Nom:mes ;
++Gen:mūsų ;
++Dat:mums ;
++Acc:mus ;
++Ins:mumis ;
++Loc:mumyse ;
+
+LEXICON Pron_2Pl
++Nom:jūs ;
++Gen:jūsų ;
++Dat:jums ;
++Acc:jus ;
++Ins:jumis ;
++Loc:jumyse ;
+
+LEXICON Pron_3Pl
++Msc: Pron_3Pl_M ;
++Fem: Pron_3Pl_F ;
+
+LEXICON Pron_3Pl_M
++Nom:jie ;
++Gen:jų ;
++Dat:jiems ;
++Acc:juos ;
++Ins:jais ;
++Loc:juose ;
+
+LEXICON Pron_3Pl_F
++Nom:jos ;
++Gen:jų ;
++Dat:joms ;
++Acc:jas ;
++Ins:jomis ;
++Loc:jose ;
