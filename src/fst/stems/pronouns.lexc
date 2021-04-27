@@ -1,2 +1,9 @@
 LEXICON Pronouns
-pronoun: Pronoun_decl ;
+aš: Pron_1Sg ;
+tu: Pron_2Sg ;
+jis: Pron_3Sg_M ;
+ji: Pron_3Sg_F ;
+mes: Pron_1Pl ;
+jūs: Pron_2Pl ;
+jie: Pron_3Pl_M ;
+jos: Pron_3Pl_F ;
