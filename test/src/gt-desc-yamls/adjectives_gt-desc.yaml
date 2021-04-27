@@ -1,23 +1,23 @@
 Config:
   hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
   xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
     App: lookup
 
 Tests:
   Adjective - ger - ok : # singular declensions for vyras
-    ger+A+Nom+Sg: geras 
-    ger+A+Gen+Sg: gero
-    ger+A+Dat+Sg: geram
-    ger+A+Acc+Sg: gerą
-    ger+A+Ins+Sg: geru
-    ger+A+Loc+Sg: gerame
-    ger+A+Nom+Pl: geri  
-    ger+A+Gen+Pl: gerų
-    ger+A+Dat+Pl: geriems
-    ger+A+Acc+Pl: gerus
-    ger+A+Ins+Pl: gerais
-    ger+A+Loc+Pl: geruose
+    ger+A+Pos+Msc+Sg+Nom: geras 
+    ger+A+Pos+Msc+Sg+Gen: gero
+    ger+A+Pos+Msc+Sg+Dat: geram
+    ger+A+Pos+Msc+Sg+Acc: gerą
+    ger+A+Pos+Msc+Sg+Ins: geru
+    ger+A+Pos+Msc+Sg+Loc: gerame
+    ger+A+Pos+Msc+Pl+Nom: geri  
+    ger+A+Pos+Msc+Pl+Gen: gerų
+    ger+A+Pos+Msc+Pl+Dat: geriems
+    ger+A+Pos+Msc+Pl+Acc: gerus
+    ger+A+Pos+Msc+Pl+Ins: gerais
+    ger+A+Pos+Msc+Pl+Loc: geruose
