@@ -1,3 +1,6 @@
+LEXICON pronoun_neut
++Pron: # ;
+
 LEXICON Pron_1Sg
 +Pron+1Sg+Nom:aš ;
 +Pron+1Sg+Gen:manęs ;
@@ -63,6 +66,14 @@ LEXICON Pron_3Pl_F
 +Pron+3Pl+Fem+Acc:jas ;
 +Pron+3Pl+Fem+Ins:jomis ;
 +Pron+3Pl+Fem+Loc:jose ;
+
+LEXICON pron_inter
++Pron+Int+Nom:as # ;
++Pron+Int+Gen:o # ;
++Pron+Int+Dat:am # ;
++Pron+Int+Acc:ą # ;
++Pron+Int+Ins:uo # ;
++Pron+Int+Loc:ame # ;
 
 ! Lexc Test
 !!€gt-desc: pronoun_test

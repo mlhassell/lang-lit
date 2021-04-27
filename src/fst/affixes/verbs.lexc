@@ -75,6 +75,14 @@ LEXICON Verbs_kalb
 +V+Cond: Subjunctive_e ;
 +V+Imprt: Imperative_e ;
 
+LEXICON Verbs_buti
++V+Pres: buti_pres ;
++V+Pst: buti_pst ;
++V+FPst: buti_fpst ;
++V+Fut: buti_fut ;
++V+Cond: buti_cond ;
++V+Imprt: buti_imprt ;
+
 LEXICON Conj_a
 +1Sg:u # ;
 +2Sg:i # ;
@@ -324,6 +332,51 @@ LEXICON Conj_joR
 +1Pl:jomės # ;
 +2Pl:jotės # ;
 +3Pl:josi # ;
+
+LEXICON buti_pres
++1Sg:esu # ;
++2Sg:esi # ;
++3Sg:yra # ;
++1Pl:esame # ;
++2Pl:esate # ;
++3Pl:yra # ;
+
+LEXICON buti_pst
++1Sg:buvau # ;
++2Sg:buvai # ;
++3Sg:buvo # ;
++1Pl:buvome # ;
++2Pl:buvote # ;
++3Pl:buvo # ;
+
+LEXICON buti_fpst
++1Sg:būdavau # ;
++2Sg:būdavai # ;
++3Sg:būdavo # ;
++1Pl:būdavome # ;
++2Pl:būdavote # ;
++3Pl:būdavo # ;
+
+LEXICON buti_fut
++1Sg:būsiu # ;
++2Sg:būsi # ;
++3Sg:bus # ;
++1Pl:būsime # ;
++2Pl:būsite # ;
++3Pl:bus # ;
+
+LEXICON buti_cond
++1Sg:būčiau # ;
++2Sg:būtum # ;
++3Sg:būtų # ;
++1Pl:būtume # ;
++2Pl:būtumėte # ;
++3Pl:būtų # ;
+
+LEXICON buti_imprt
++2Sg:būk # ;  ! can also be ki
++1Pl:būkime # ;
++2Pl:būkite # ;
 
 ! vim: set ft=xfst-lexc:
 

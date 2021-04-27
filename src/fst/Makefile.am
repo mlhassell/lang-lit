@@ -26,13 +26,16 @@ GT_LEXC_ROOT=$(srcdir)/root.lexc
 # Set this to the names of all regular lexc source files:
 GT_LEXC_SRCS_L1_L2=\
 			 affixes/adjectives.lexc  \
+			 affixes/conjunctions.lexc\
 			 affixes/adverbs.lexc	  \
 			 affixes/nouns.lexc       \
 			 affixes/pronouns.lexc	  \
 			 affixes/verbs.lexc       \
 			 stems/adjectives.lexc    \
+			 stems/conjunctions.lexc  \
 			 stems/adverbs.lexc 	  \
 			 stems/nouns.lexc         \
+			 stems/pronouns.lexc	  \
 			 stems/verbs.lexc
 
 # If you are building an error-detecting L2 analyser, specify the lexc files

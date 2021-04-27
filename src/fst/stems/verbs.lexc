@@ -17,5 +17,7 @@ skait Verbs_C3 ;
 mok Verbs_C3R ;
 baig Verbs_C12R ;
 kalb Verbs_kalb ;
+būti: Verbs_buti ;
+
 
 ! vim: set ft=xfst-lexc:

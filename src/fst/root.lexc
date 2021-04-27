@@ -28,7 +28,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 !! The parts-of-speech are:
  +N +A +Adv +V                                 
- +Pron 
+ +Pron +Conj +Prep
 
 
 !! The nominals are inflected in the following Case, Gender, and Number
@@ -46,7 +46,8 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +Card
  +Ord 
 
- 
+!! Pronouns can be
++Int !interogative 
 
 !! Verb personal forms are:
  +1Sg +2Sg +3Sg +1Pl +2Pl +3Pl
