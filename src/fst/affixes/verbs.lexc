@@ -4,328 +4,326 @@
 
 
 LEXICON Verbs_C11
-+Pres: Conj_a ;
-+Pst: Conj_o ;
-+FPst: Freq_Past ;
-+Fut: Future ;
-+Cond: Subjunctive ;
-+Imprt: Imperative ;
++V+Pres: Conj_a ;
++V+Pst: Conj_o ;
++V+FPst: Freq_Past ;
++V+Fut: Future ;
++V+Cond: Subjunctive ;
++V+Imprt: Imperative ;
 
 LEXICON Verbs_C12
-+Pres: Conj_ia ;
-+Pst: Conj_e ;
-+FPst: Freq_Past ;
-+Fut: Future ;
-+Cond: Subjunctive ;
-+Imprt: Imperative ;
++V+Pres: Conj_ia ;
++V+Pst: Conj_e ;
++V+FPst: Freq_Past ;
++V+Fut: Future ;
++V+Cond: Subjunctive ;
++V+Imprt: Imperative ;
 
 LEXICON Verbs_C2
-+Pres: Conj_i ;
-+Pst: Conj_ejo ;
-+FPst: Freq_Past_e ;
-+Fut: Future_e ;
-+Cond: Subjunctive_e ;
-+Imprt: Imperative_e ;
++V+Pres: Conj_i ;
++V+Pst: Conj_ejo ;
++V+FPst: Freq_Past_e ;
++V+Fut: Future_e ;
++V+Cond: Subjunctive_e ;
++V+Imprt: Imperative_e ;
 
 LEXICON Verbs_C3
-+Pres: Conj_o ;
-+Pst: Conj_e ;
-+FPst: Freq_Past ;
-+Fut: Future ;
-+Cond: Subjunctive ;
-+Imprt: Imperative ;
++V+Pres: Conj_o ;
++V+Pst: Conj_e ;
++V+FPst: Freq_Past ;
++V+Fut: Future ;
++V+Cond: Subjunctive ;
++V+Imprt: Imperative ;
 
 LEXICON Verbs_C11R
-+Pres: Conj_aR ;
-+Pst: Conj_oR ;
-+FPst: Freq_PastR ;
-+Fut: FutureR ;
-+Cond: SubjunctiveR ;
-+Imprt: ImperativeR ;
++V+Pres: Conj_aR ;
++V+Pst: Conj_oR ;
++V+FPst: Freq_PastR ;
++V+Fut: FutureR ;
++V+Cond: SubjunctiveR ;
++V+Imprt: ImperativeR ;
 
 LEXICON Verbs_C12R
-+Pres: Conj_iaR ;
-+Pst: Conj_eR ;
-+FPst: Freq_PastR ;
-+Fut: FutureR ;
-+Cond: SubjunctiveR ;
-+Imprt: ImperativeR ;
++V+Pres: Conj_iaR ;
++V+Pst: Conj_eR ;
++V+FPst: Freq_PastR ;
++V+Fut: FutureR ;
++V+Cond: SubjunctiveR ;
++V+Imprt: ImperativeR ;
 
 LEXICON Verbs_C2R
-+Pres: Conj_iR ;
-+Pst: Conj_ejoR ;
-+FPst: Freq_PastR_e ;
-+Fut: FutureR_e ;
-+Cond: SubjunctiveR_e ;
-+Imprt: ImperativeR_e ;
++V+Pres: Conj_iR ;
++V+Pst: Conj_ejoR ;
++V+FPst: Freq_PastR_e ;
++V+Fut: FutureR_e ;
++V+Cond: SubjunctiveR_e ;
++V+Imprt: ImperativeR_e ;
 
 LEXICON Verbs_C3R
-+Pres: Conj_oR ;
-+Pst: Conj_eR ;
-+FPst: Freq_PastR ;
-+Fut: FutureR ;
-+Cond: SubjunctiveR ;
-+Imprt: ImperativeR ;
++V+Pres: Conj_oR ;
++V+Pst: Conj_eR ;
++V+FPst: Freq_PastR ;
++V+Fut: FutureR ;
++V+Cond: SubjunctiveR ;
++V+Imprt: ImperativeR ;
 
 LEXICON Verbs_kalb
-+Pres: Conj_a ;
-+Pst: Conj_ejo ;
-+FPst: Freq_Past_e ;
-+Fut: Future_e ;
-+Cond: Subjunctive_e ;
-+Imprt: Imperative_e ;
++V+Pres: Conj_a ;
++V+Pst: Conj_ejo ;
++V+FPst: Freq_Past_e ;
++V+Fut: Future_e ;
++V+Cond: Subjunctive_e ;
++V+Imprt: Imperative_e ;
 
 LEXICON Conj_a
-+Sg1:u # ;
-+Sg2:i # ;
-+Sg3:a # ;
-+Pl1:ame # ;
-+Pl2:ate # ;
-+Pl3:a # ;
++1Sg:u # ;
++2Sg:i # ;
++3Sg:a # ;
++1Pl:ame # ;
++2Pl:ate # ;
++3Pl:a # ;
 
 LEXICON Conj_ia
-+Sg1:iu # ;
-+Sg2:i # ;
-+Sg3:ia # ;
-+Pl1:iame # ;
-+Pl2:iate # ;
-+Pl3:ia # ;
++1Sg:iu # ;
++2Sg:i # ;
++3Sg:ia # ;
++1Pl:iame # ;
++2Pl:iate # ;
++3Pl:ia # ;
 
 LEXICON Conj_o
-+Sg1:au # ;
-+Sg2:ai # ;
-+Sg3:o # ;
-+Pl1:ome # ;
-+Pl2:ote # ;
-+Pl3:o # ;
++1Sg:au # ;
++2Sg:ai # ;
++3Sg:o # ;
++1Pl:ome # ;
++2Pl:ote # ;
++3Pl:o # ;
 
 LEXICON Conj_ejo
-+Sg1:ėjau # ;
-+Sg2:ėjai # ;
-+Sg3:ėjo # ;
-+Pl1:ėjome # ;
-+Pl2:ėjote # ;
-+Pl3:ėjo # ;
++1Sg:ėjau # ;
++2Sg:ėjai # ;
++3Sg:ėjo # ;
++1Pl:ėjome # ;
++2Pl:ėjote # ;
++3Pl:ėjo # ;
 
 LEXICON Conj_i
-+Sg1:iu # ;
-+Sg2:i # ;
-+Sg3:i # ;
-+Pl1:ime # ;
-+Pl2:ite # ;
-+Pl3:i # ;
++1Sg:iu # ;
++2Sg:i # ;
++3Sg:i # ;
++1Pl:ime # ;
++2Pl:ite # ;
++3Pl:i # ;
 
 LEXICON Conj_e
-+Sg1:iau # ;
-+Sg2:ei # ;
-+Sg3:ė # ;
-+Pl1:ėme # ;
-+Pl2:ėte # ;
-+Pl3:ė # ;
++1Sg:iau # ;
++2Sg:ei # ;
++3Sg:ė # ;
++1Pl:ėme # ;
++2Pl:ėte # ;
++3Pl:ė # ;
 
 LEXICON Conj_aR
-+Sg1:uosi # ;
-+Sg2:iesi # ;
-+Sg3:asi # ;
-+Pl1:amės # ;
-+Pl2:atės # ;
-+Pl3:asi # ;
++1Sg:uosi # ;
++2Sg:iesi # ;
++3Sg:asi # ;
++1Pl:amės # ;
++2Pl:atės # ;
++3Pl:asi # ;
 
 LEXICON Conj_iaR
-+Sg1:iuosi # ;
-+Sg2:iesi # ;
-+Sg3:iasi # ;
-+Pl1:iamės # ;
-+Pl2:iatės # ;
-+Pl3:iasi # ;
++1Sg:iuosi # ;
++2Sg:iesi # ;
++3Sg:iasi # ;
++1Pl:iamės # ;
++2Pl:iatės # ;
++3Pl:iasi # ;
 
 LEXICON Conj_oR
-+Sg1:ausi # ;
-+Sg2:aisi # ;
-+Sg3:osi # ;
-+Pl1:omės # ;
-+Pl2:otės # ;
-+Pl3:osi # ;
++1Sg:ausi # ;
++2Sg:aisi # ;
++3Sg:osi # ;
++1Pl:omės # ;
++2Pl:otės # ;
++3Pl:osi # ;
 
 LEXICON Conj_ejoR
-+Sg1:ėjausi # ;
-+Sg2:ėjaisi # ;
-+Sg3:ėjosi # ;
-+Pl1:ėjomės # ;
-+Pl2:ėjotės # ;
-+Pl3:ėjosi # ;
++1Sg:ėjausi # ;
++2Sg:ėjaisi # ;
++3Sg:ėjosi # ;
++1Pl:ėjomės # ;
++2Pl:ėjotės # ;
++3Pl:ėjosi # ;
 
 LEXICON Conj_iR
-+Sg1:iuosi # ;
-+Sg2:iesi # ;
-+Sg3:isi # ;
-+Pl1:imės # ;
-+Pl2:itės # ;
-+Pl3:isi # ;
++1Sg:iuosi # ;
++2Sg:iesi # ;
++3Sg:isi # ;
++1Pl:imės # ;
++2Pl:itės # ;
++3Pl:isi # ;
 
 LEXICON Conj_eR
-+Sg1:iausi # ;
-+Sg2:eisi # ;
-+Sg3:ėsi # ;
-+Pl1:ėmės # ;
-+Pl2:ėtės # ;
-+Pl3:ėsi # ;
++1Sg:iausi # ;
++2Sg:eisi # ;
++3Sg:ėsi # ;
++1Pl:ėmės # ;
++2Pl:ėtės # ;
++3Pl:ėsi # ;
 
 LEXICON Freq_Past
-+Sg1:davau # ;
-+Sg2:davai # ;
-+Sg3:davo # ;
-+Pl1:davome # ;
-+Pl2:davote # ;
-+Pl3:davo # ;
++1Sg:davau # ;
++2Sg:davai # ;
++3Sg:davo # ;
++1Pl:davome # ;
++2Pl:davote # ;
++3Pl:davo # ;
 
 LEXICON Freq_PastR
-+Sg1:davausi # ;
-+Sg2:davaisi # ;
-+Sg3:davosi # ;
-+Pl1:davomės # ;
-+Pl2:davotės # ;
-+Pl3:davosi # ;
++1Sg:davausi # ;
++2Sg:davaisi # ;
++3Sg:davosi # ;
++1Pl:davomės # ;
++2Pl:davotės # ;
++3Pl:davosi # ;
 
 LEXICON Freq_PastR_e
-+Sg1:ėdavausi # ;
-+Sg2:ėdavaisi # ;
-+Sg3:ėdavosi # ;
-+Pl1:ėdavomės # ;
-+Pl2:ėdavotės # ;
-+Pl3:ėdavosi # ;
++1Sg:ėdavausi # ;
++2Sg:ėdavaisi # ;
++3Sg:ėdavosi # ;
++1Pl:ėdavomės # ;
++2Pl:ėdavotės # ;
++3Pl:ėdavosi # ;
 
 LEXICON Freq_Past_e
-+Sg1:ėdavau # ;
-+Sg2:ėdavai # ;
-+Sg3:ėdavo # ;
-+Pl1:ėdavome # ;
-+Pl2:ėdavote # ;
-+Pl3:ėdavo # ;
++1Sg:ėdavau # ;
++2Sg:ėdavai # ;
++3Sg:ėdavo # ;
++1Pl:ėdavome # ;
++2Pl:ėdavote # ;
++3Pl:ėdavo # ;
 
 LEXICON Future
-+Sg1:siu # ;
-+Sg2:si # ;
-+Sg3:s # ;
-+Pl1:sime # ;
-+Pl2:site # ;
-+Pl3:s # ;
++1Sg:siu # ;
++2Sg:si # ;
++3Sg:s # ;
++1Pl:sime # ;
++2Pl:site # ;
++3Pl:s # ;
 
 LEXICON FutureR
-+Sg1:siuosi # ;
-+Sg2:siesi # ;
-+Sg3:sis # ;
-+Pl1:simės # ;
-+Pl2:sitės # ;
-+Pl3:sis # ;
++1Sg:siuosi # ;
++2Sg:siesi # ;
++3Sg:sis # ;
++1Pl:simės # ;
++2Pl:sitės # ;
++3Pl:sis # ;
 
 LEXICON FutureR_e
-+Sg1:ėsiuosi # ;
-+Sg2:ėsiesi # ;
-+Sg3:ėsis # ;
-+Pl1:ėsimės # ;
-+Pl2:ėsitės # ;
-+Pl3:ėsis # ;
++1Sg:ėsiuosi # ;
++2Sg:ėsiesi # ;
++3Sg:ėsis # ;
++1Pl:ėsimės # ;
++2Pl:ėsitės # ;
++3Pl:ėsis # ;
 
 LEXICON Future_e
-+Sg1:ėsiu # ;
-+Sg2:ėsi # ;
-+Sg3:ės # ;
-+Pl1:ėsime # ;
-+Pl2:ėsite # ;
-+Pl3:ės # ;
++1Sg:ėsiu # ;
++2Sg:ėsi # ;
++3Sg:ės # ;
++1Pl:ėsime # ;
++2Pl:ėsite # ;
++3Pl:ės # ;
 
 LEXICON Subjunctive
-+Sg1:čiau # ;
-+Sg2:tum # ;
-+Sg3:tų # ;
-+Pl1:tume # ;
-+Pl2:tumėte # ;
-+Pl3:tų # ;
++1Sg:čiau # ;
++2Sg:tum # ;
++3Sg:tų # ;
++1Pl:tume # ;
++2Pl:tumėte # ;
++3Pl:tų # ;
 
 LEXICON SubjunctiveR
-+Sg1:čiausi # ;
-+Sg2:tumeisi # ;
-+Sg3:tųs # ;
-+Pl1:tumės # ;
-+Pl2:tumėtės # ;
-+Pl3:tųs # ;
++1Sg:čiausi # ;
++2Sg:tumeisi # ;
++3Sg:tųs # ;
++1Pl:tumės # ;
++2Pl:tumėtės # ;
++3Pl:tųs # ;
 
 LEXICON SubjunctiveR_e
-+Sg1:ėčiausi # ;
-+Sg2:ėtumeisi # ;
-+Sg3:ėtųs # ;
-+Pl1:ėtumės # ;
-+Pl2:ėtumėtės # ;
-+Pl3:ėtųs # ;
++1Sg:ėčiausi # ;
++2Sg:ėtumeisi # ;
++3Sg:ėtųs # ;
++1Pl:ėtumės # ;
++2Pl:ėtumėtės # ;
++3Pl:ėtųs # ;
 
 LEXICON Subjunctive_e
-+Sg1:ėčiau # ;
-+Sg2:ėtum # ;
-+Sg3:ėtų # ;
-+Pl1:ėtume # ;
-+Pl2:ėtumėte # ;
-+Pl3:ėtų # ;
++1Sg:ėčiau # ;
++2Sg:ėtum # ;
++3Sg:ėtų # ;
++1Pl:ėtume # ;
++2Pl:ėtumėte # ;
++3Pl:ėtų # ;
 
 LEXICON Imperative
-+Sg2:k # ;  ! can also be ki
-!+Sg3: # ;  ! weird form?
-+Pl1:kime # ;
-+Pl2:kite # ;
-!+Pl3: # ;
++2Sg:k # ;  ! can also be ki
+!+3Sg: # ;  ! weird form?
++1Pl:kime # ;
++2Pl:kite # ;
+!+3Pl: # ;
 
 LEXICON ImperativeR
-+Sg2:kis # ;  ! can also be ki
-!+Sg3: # ;  ! weird form?
-+Pl1:kimės # ;
-+Pl2:kitės # ;
-!+Pl3: # ;
++2Sg:kis # ;  ! can also be ki
+!+3Sg: # ;  ! weird form?
++1Pl:kimės # ;
++2Pl:kitės # ;
+!+3Pl: # ;
 
 LEXICON ImperativeR_e
-+Sg2:ėkis # ;  ! can also be ki
-!+Sg3: # ;  ! weird form?
-+Pl1:ėkimės # ;
-+Pl2:ėkitės # ;
-!+Pl3: # ;
++2Sg:ėkis # ;  ! can also be ki
+!+3Sg: # ;  ! weird form?
++1Pl:ėkimės # ;
++2Pl:ėkitės # ;
+!+3Pl: # ;
 
 LEXICON Imperative_e
-+Sg2:ėk # ;  ! can also be ki
-!+Sg3: # ;  ! weird form?
-+Pl1:ėkime # ;
-+Pl2:ėkite # ;
-!+Pl3: # ;
++2Sg:ėk # ;  ! can also be ki
++1Pl:ėkime # ;
++2Pl:ėkite # ;
 
 LEXICON Conj_ja
-+Sg1:ju # ;
-+Sg2:ji # ;
-+Sg3:ja # ;
-+Pl1:jame # ;
-+Pl2:jate # ;
-+Pl3:ja # ;
++1Sg:ju # ;
++2Sg:ji # ;
++3Sg:ja # ;
++1Pl:jame # ;
++2Pl:jate # ;
++3Pl:ja # ;
 
 LEXICON Conj_jo
-+Sg1:jau # ;
-+Sg2:jai # ;
-+Sg3:jo # ;
-+Pl1:jome # ;
-+Pl2:jote # ;
-+Pl3:jo # ;
++1Sg:jau # ;
++2Sg:jai # ;
++3Sg:jo # ;
++1Pl:jome # ;
++2Pl:jote # ;
++3Pl:jo # ;
 
 LEXICON Conj_jaR
-+Sg1:juosi # ;
-+Sg2:jiesi # ;
-+Sg3:jasi # ;
-+Pl1:jamės # ;
-+Pl2:jatės # ;
-+Pl3:jasi # ;
++1Sg:juosi # ;
++2Sg:jiesi # ;
++3Sg:jasi # ;
++1Pl:jamės # ;
++2Pl:jatės # ;
++3Pl:jasi # ;
 
 LEXICON Conj_joR
-+Sg1:jausi # ;
-+Sg2:jaisi # ;
-+Sg3:josi # ;
-+Pl1:jomės # ;
-+Pl2:jotės # ;
-+Pl3:josi # ;
++1Sg:jausi # ;
++2Sg:jaisi # ;
++3Sg:josi # ;
++1Pl:jomės # ;
++2Pl:jotės # ;
++3Pl:josi # ;
 
 ! vim: set ft=xfst-lexc:
 

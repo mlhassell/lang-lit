@@ -27,7 +27,6 @@ Verbs can be reflexive
 
 
 
-
 The word forms in Lithuanian language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
