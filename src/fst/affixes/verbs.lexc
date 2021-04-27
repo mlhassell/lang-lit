@@ -22,10 +22,10 @@ LEXICON Verbs_C12
 LEXICON Verbs_C2
 +Pres: Conj_i ;
 +Pst: Conj_ejo ;
-+FPst: Freq_Past ;
-+Fut: Future ;
-+Cond: Subjunctive ;
-+Imprt: Imperative ;
++FPst: Freq_Past_e ;
++Fut: Future_e ;
++Cond: Subjunctive_e ;
++Imprt: Imperative_e ;
 
 LEXICON Verbs_C3
 +Pres: Conj_o ;
@@ -54,10 +54,10 @@ LEXICON Verbs_C12R
 LEXICON Verbs_C2R
 +Pres: Conj_iR ;
 +Pst: Conj_ejoR ;
-+FPst: Freq_PastR ;
-+Fut: FutureR ;
-+Cond: SubjunctiveR ;
-+Imprt: ImperativeR ;
++FPst: Freq_PastR_e ;
++Fut: FutureR_e ;
++Cond: SubjunctiveR_e ;
++Imprt: ImperativeR_e ;
 
 LEXICON Verbs_C3R
 +Pres: Conj_oR ;
@@ -70,10 +70,10 @@ LEXICON Verbs_C3R
 LEXICON Verbs_kalb
 +Pres: Conj_a ;
 +Pst: Conj_ejo ;
-+FPst: Freq_Past ;
-+Fut: Future ;
-+Cond: Subjunctive ;
-+Imprt: Imperative ;
++FPst: Freq_Past_e ;
++Fut: Future_e ;
++Cond: Subjunctive_e ;
++Imprt: Imperative_e ;
 
 LEXICON Conj_a
 +Sg1:u # ;
@@ -187,6 +187,22 @@ LEXICON Freq_PastR
 +Pl2:davotės # ;
 +Pl3:davosi # ;
 
+LEXICON Freq_PastR_e
++Sg1:ėdavausi # ;
++Sg2:ėdavaisi # ;
++Sg3:ėdavosi # ;
++Pl1:ėdavomės # ;
++Pl2:ėdavotės # ;
++Pl3:ėdavosi # ;
+
+LEXICON Freq_Past_e
++Sg1:ėdavau # ;
++Sg2:ėdavai # ;
++Sg3:ėdavo # ;
++Pl1:ėdavome # ;
++Pl2:ėdavote # ;
++Pl3:ėdavo # ;
+
 LEXICON Future
 +Sg1:siu # ;
 +Sg2:si # ;
@@ -202,6 +218,22 @@ LEXICON FutureR
 +Pl1:simės # ;
 +Pl2:sitės # ;
 +Pl3:sis # ;
+
+LEXICON FutureR_e
++Sg1:ėsiuosi # ;
++Sg2:ėsiesi # ;
++Sg3:ėsis # ;
++Pl1:ėsimės # ;
++Pl2:ėsitės # ;
++Pl3:ėsis # ;
+
+LEXICON Future_e
++Sg1:ėsiu # ;
++Sg2:ėsi # ;
++Sg3:ės # ;
++Pl1:ėsime # ;
++Pl2:ėsite # ;
++Pl3:ės # ;
 
 LEXICON Subjunctive
 +Sg1:čiau # ;
@@ -219,6 +251,22 @@ LEXICON SubjunctiveR
 +Pl2:tumėtės # ;
 +Pl3:tųs # ;
 
+LEXICON SubjunctiveR_e
++Sg1:ėčiausi # ;
++Sg2:ėtumeisi # ;
++Sg3:ėtųs # ;
++Pl1:ėtumės # ;
++Pl2:ėtumėtės # ;
++Pl3:ėtųs # ;
+
+LEXICON Subjunctive_e
++Sg1:ėčiau # ;
++Sg2:ėtum # ;
++Sg3:ėtų # ;
++Pl1:ėtume # ;
++Pl2:ėtumėte # ;
++Pl3:ėtų # ;
+
 LEXICON Imperative
 +Sg2:k # ;  ! can also be ki
 !+Sg3: # ;  ! weird form?
@@ -231,6 +279,20 @@ LEXICON ImperativeR
 !+Sg3: # ;  ! weird form?
 +Pl1:kimės # ;
 +Pl2:kitės # ;
+!+Pl3: # ;
+
+LEXICON ImperativeR_e
++Sg2:ėkis # ;  ! can also be ki
+!+Sg3: # ;  ! weird form?
++Pl1:ėkimės # ;
++Pl2:ėkitės # ;
+!+Pl3: # ;
+
+LEXICON Imperative_e
++Sg2:ėk # ;  ! can also be ki
+!+Sg3: # ;  ! weird form?
++Pl1:ėkime # ;
++Pl2:ėkite # ;
 !+Pl3: # ;
 
 LEXICON Conj_ja
