@@ -83,6 +83,14 @@ LEXICON Verbs_buti
 +V+Cond: buti_cond ;
 +V+Imprt: buti_imprt ;
 
+LEXICON Verbs_deti
++V+Pres: Conj_eda ;
++V+Pst: Conj_ejo ;
++V+FPst: Freq_Past_e ;
++V+Fut: Future_e ;
++V+Cond: Subjunctive_e ;
++V+Imprt: Imperative_e ;
+
 LEXICON Conj_a
 +1Sg:u # ;
 +2Sg:i # ;
@@ -377,6 +385,14 @@ LEXICON buti_imprt
 +2Sg:būk # ;  ! can also be ki
 +1Pl:būkime # ;
 +2Pl:būkite # ;
+
+LEXICON Conj_eda
++1Sg:edu # ;
++2Sg:edi # ;
++3Sg:eda # ;
++1Pl:edame # ;
++2Pl:edate # ;
++3Pl:eda # ;
 
 ! vim: set ft=xfst-lexc:
 

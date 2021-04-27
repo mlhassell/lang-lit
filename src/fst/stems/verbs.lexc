@@ -18,6 +18,9 @@ mok Verbs_C3R ;
 baig Verbs_C12R ;
 kalb Verbs_kalb ;
 būti: Verbs_buti ;
-
+sudar Verbs_C3 ;
+pradeti:prad Verbs_deti ;
+deti:d Verbs_deti ;
+padeti:pad Verbs_deti ;
 
 ! vim: set ft=xfst-lexc:
