@@ -30,10 +30,10 @@ LEXICON Verbs_C2
 LEXICON Verbs_C3
 +V+Pres: Conj_o ;
 +V+Pst: Conj_e ;
-+V+FPst: Freq_Past ;
-+V+Fut: Future ;
-+V+Cond: Subjunctive ;
-+V+Imprt: Imperative ;
++V+FPst: Freq_Past_y ;
++V+Fut: Future_y ;
++V+Cond: Subjunctive_y ;
++V+Imprt: Imperative_y ;
 
 LEXICON Verbs_C11R
 +V+Pres: Conj_aR ;
@@ -62,10 +62,10 @@ LEXICON Verbs_C2R
 LEXICON Verbs_C3R
 +V+Pres: Conj_oR ;
 +V+Pst: Conj_eR ;
-+V+FPst: Freq_PastR ;
-+V+Fut: FutureR ;
-+V+Cond: SubjunctiveR ;
-+V+Imprt: ImperativeR ;
++V+FPst: Freq_PastR_y ;
++V+Fut: FutureR_y ;
++V+Cond: SubjunctiveR_y ;
++V+Imprt: ImperativeR_y ;
 
 LEXICON Verbs_kalb
 +V+Pres: Conj_a ;
@@ -106,6 +106,46 @@ LEXICON Verbs_ikti
 +V+Fut: Future_k ;
 +V+Cond: Subjunctive_k ;
 +V+Imprt: Imperative ;
+
+LEXICON Verbs_imti
++V+Pres: Conj_ima ;
++V+Pst: Conj_eme ;
++V+FPst: Freq_Past_im ;
++V+Fut: Future_im ;
++V+Cond: Subjunctive_im ;
++V+Imprt: Imperative_im ;
+
+LEXICON Verbs_o_ojo
++V+Pres: Conj_o ;
++V+Pst: Conj_ojo ;
++V+FPst: Freq_Past_o ;
++V+Fut: Future_o ;
++V+Cond: Subjunctive_o ;
++V+Imprt: Imperative_o ;
+
+LEXICON Verbs_ja_jo
++V+Pres: Conj_ja ;
++V+Pst: Conj_jo ;
++V+FPst: Freq_Past ;
++V+Fut: Future ;
++V+Cond: Subjunctive ;
++V+Imprt: Imperative ;
+
+LEXICON Verbs_sta
++V+Pres: Conj_sta ;
++V+Pst: Conj_o ;
++V+FPst: Freq_Past ;
++V+Fut: Future ;
++V+Cond: Subjunctive ;
++V+Imprt: Imperative ;
+
+LEXICON Verbs_enk
++V+Pres: Conj_enk ;
++V+Pst: Conj_inko ;
++V+FPst: Freq_Past_ink ;
++V+Fut: Future_ink ;
++V+Cond: Subjunctive_ink ;
++V+Imprt: Imperative_ink ;
 
 LEXICON Conj_a
 +1Sg:u # ;
@@ -155,6 +195,14 @@ LEXICON Conj_e
 +2Pl:ėte # ;
 +3Pl:ė # ;
 
+LEXICON Conj_ojo
++1Sg:ojau # ;
++2Sg:ojai # ;
++3Sg:ojo # ;
++1Pl:ojome # ;
++2Pl:ojote # ;
++3Pl:ojo # ;
+
 LEXICON Conj_aR
 +1Sg:uosi # ;
 +2Sg:iesi # ;
@@ -203,6 +251,14 @@ LEXICON Conj_eR
 +2Pl:ėtės # ;
 +3Pl:ėsi # ;
 
+LEXICON Conj_inko
++1Sg:inkau # ;
++2Sg:inkai # ;
++3Sg:inko # ;
++1Pl:inkome # ;
++2Pl:inkote # ;
++3Pl:inko # ;
+
 LEXICON Freq_Past
 +1Sg:davau # ;
 +2Sg:davai # ;
@@ -211,6 +267,14 @@ LEXICON Freq_Past
 +2Pl:davote # ;
 +3Pl:davo # ;
 
+LEXICON Freq_Past_y
++1Sg:ydavau # ;
++2Sg:ydavai # ;
++3Sg:ydavo # ;
++1Pl:ydavome # ;
++2Pl:ydavote # ;
++3Pl:ydavo # ;
+
 LEXICON Freq_PastR
 +1Sg:davausi # ;
 +2Sg:davaisi # ;
@@ -218,6 +282,14 @@ LEXICON Freq_PastR
 +1Pl:davomės # ;
 +2Pl:davotės # ;
 +3Pl:davosi # ;
+
+LEXICON Freq_PastR_y
++1Sg:ydavausi # ;
++2Sg:ydavaisi # ;
++3Sg:ydavosi # ;
++1Pl:ydavomės # ;
++2Pl:ydavotės # ;
++3Pl:ydavosi # ;
 
 LEXICON Freq_PastR_e
 +1Sg:ėdavausi # ;
@@ -243,6 +315,14 @@ LEXICON Future
 +2Pl:site # ;
 +3Pl:s # ;
 
+LEXICON Future_y
++1Sg:ysiu # ;
++2Sg:ysi # ;
++3Sg:ys # ;
++1Pl:ysime # ;
++2Pl:ysite # ;
++3Pl:ys # ;
+
 LEXICON FutureR
 +1Sg:siuosi # ;
 +2Sg:siesi # ;
@@ -250,6 +330,14 @@ LEXICON FutureR
 +1Pl:simės # ;
 +2Pl:sitės # ;
 +3Pl:sis # ;
+
+LEXICON FutureR_y
++1Sg:ysiuosi # ;
++2Sg:ysiesi # ;
++3Sg:ysis # ;
++1Pl:ysimės # ;
++2Pl:ysitės # ;
++3Pl:ysis # ;
 
 LEXICON FutureR_e
 +1Sg:ėsiuosi # ;
@@ -275,6 +363,14 @@ LEXICON Subjunctive
 +2Pl:tumėte # ;
 +3Pl:tų # ;
 
+LEXICON Subjunctive_y
++1Sg:yčiau # ;
++2Sg:ytum # ;
++3Sg:ytų # ;
++1Pl:ytume # ;
++2Pl:ytumėte # ;
++3Pl:ytų # ;
+
 LEXICON SubjunctiveR
 +1Sg:čiausi # ;
 +2Sg:tumeisi # ;
@@ -282,6 +378,14 @@ LEXICON SubjunctiveR
 +1Pl:tumės # ;
 +2Pl:tumėtės # ;
 +3Pl:tųs # ;
+
+LEXICON SubjunctiveR_y
++1Sg:yčiausi # ;
++2Sg:ytumeisi # ;
++3Sg:ytųs # ;
++1Pl:ytumės # ;
++2Pl:ytumėtės # ;
++3Pl:ytųs # ;
 
 LEXICON SubjunctiveR_e
 +1Sg:ėčiausi # ;
@@ -306,11 +410,25 @@ LEXICON Imperative
 +2Pl:kite # ;
 !+3Pl: # ;
 
+LEXICON Imperative_y
++2Sg:yk # ;  ! can also be ki
+!+3Sg: # ;  ! weird form?
++1Pl:ykime # ;
++2Pl:ykite # ;
+!+3Pl: # ;
+
 LEXICON ImperativeR
 +2Sg:kis # ;  ! can also be ki
 !+3Sg: # ;  ! weird form?
 +1Pl:kimės # ;
 +2Pl:kitės # ;
+!+3Pl: # ;
+
+LEXICON ImperativeR_y
++2Sg:ykis # ;  ! can also be ki
+!+3Sg: # ;  ! weird form?
++1Pl:ykimės # ;
++2Pl:ykitės # ;
 !+3Pl: # ;
 
 LEXICON ImperativeR_e
@@ -418,6 +536,14 @@ LEXICON Conj_šta
 +2Pl:štate # ;
 +3Pl:šta # ;
 
+LEXICON Conj_sta
++1Sg:stu # ;
++2Sg:sti # ;
++3Sg:sta # ;
++1Pl:stame # ;
++2Pl:state # ;
++3Pl:sta # ;
+
 LEXICON Conj_inka
 +1Sg:nku # ;
 +2Sg:nki # ;
@@ -457,6 +583,117 @@ LEXICON Subjunctive_k
 +1Pl:ktume # ;
 +2Pl:ktumėte # ;
 +3Pl:ktų # ;
+
+LEXICON Conj_ima
++1Sg:imu # ;
++2Sg:imi # ;
++3Sg:ima # ;
++1Pl:imame # ;
++2Pl:imate # ;
++3Pl:ima # ;
+
+LEXICON Conj_eme
++1Sg:ėmiau # ;
++2Sg:ėmei # ;
++3Sg:ėmė # ;
++1Pl:ėmėme # ;
++2Pl:ėmėte # ;
++3Pl:ėmė # ;
+
+LEXICON Freq_Past_im
++1Sg:imdavau # ;
++2Sg:imdavai # ;
++3Sg:imdavo # ;
++1Pl:imdavome # ;
++2Pl:imdavote # ;
++3Pl:imdavo # ;
+
+LEXICON Future_im
++1Sg:imsiu # ;
++2Sg:imsi # ;
++3Sg:ims # ;
++1Pl:imsime # ;
++2Pl:imsite # ;
++3Pl:ims # ;
+
+LEXICON Subjunctive_im
++1Sg:imčiau # ;
++2Sg:imtum # ;
++3Sg:imtų # ;
++1Pl:imtume # ;
++2Pl:imtumėte # ;
++3Pl:imtų # ;
+
+LEXICON Imperative_im
++2Sg:imk # ;  ! can also be ki
++1Pl:imkime # ;
++2Pl:imkite # ;
+
+LEXICON Freq_Past_o
++1Sg:odavau # ;
++2Sg:odavai # ;
++3Sg:odavo # ;
++1Pl:odavome # ;
++2Pl:odavote # ;
++3Pl:odavo # ;
+
+LEXICON Future_o
++1Sg:osiu # ;
++2Sg:osi # ;
++3Sg:os # ;
++1Pl:osime # ;
++2Pl:osite # ;
++3Pl:os # ;
+
+LEXICON Subjunctive_o
++1Sg:očiau # ;
++2Sg:otum # ;
++3Sg:otų # ;
++1Pl:otume # ;
++2Pl:otumėte # ;
++3Pl:otų # ;
+
+LEXICON Imperative_o
++2Sg:ok # ;  ! can also be ki
++1Pl:okime # ;
++2Pl:okite # ;
+
+LEXICON Conj_enk
++1Sg:enku # ;
++2Sg:enki # ;
++3Sg:enka # ;
++1Pl:enkame # ;
++2Pl:enkate # ;
++3Pl:enka # ;
+
+LEXICON Freq_Past_ink
++1Sg:inkdavau # ;
++2Sg:inkdavai # ;
++3Sg:inkdavo # ;
++1Pl:inkdavome # ;
++2Pl:inkdavote # ;
++3Pl:inkdavo # ;
+
+LEXICON Future_ink
++1Sg:inksiu # ;
++2Sg:inksi # ;
++3Sg:inks # ;
++1Pl:inksime # ;
++2Pl:inksite # ;
++3Pl:inks # ;
+
+LEXICON Subjunctive_ink
++1Sg:inkčiau # ;
++2Sg:inktum # ;
++3Sg:inktų # ;
++1Pl:inktume # ;
++2Pl:inktumėte # ;
++3Pl:inktų # ;
+
+LEXICON Imperative_ink
++2Sg:ink # ;  ! can also be ki
++1Pl:inkime # ;
++2Pl:inkite # ;
 
 ! vim: set ft=xfst-lexc:
 
