@@ -36,5 +36,28 @@ pasideti:pasid Verbs_deti ;
 prideti:prid Verbs_deti ;
 atideti:atid Verbs_deti ;
 sudeti:sud Verbs_deti ;
+baig Verbs_C12R ;
+padar Verbs_C3 ;
+imti: Verbs_imti ;
+užimti:už Verbs_imti ;
+priimti:pri Verbs_imti ;
+paimpti:pa Verbs_imti ;
+žin Verbs_o_ojo ;
+galvo Verbs_ja_jo ;
+gro Verbs_ja_jo ;
+gird Verbs_C2 ;
+vyk Verbs_sta ;
+skelb Verbs_C12 ;
+dirb Verbs_C11 ;
+aug Verbs_C11 ;
+užaug Verbs_C11 ;
+abejo Verbs_ja_jo ;
+susirinkti:susir Verbs_enk ;
+išrinkti:išr Verbs_enk ;
+reišk Verbs_C12 ;
+laimė Verbs_ja_jo ;
+siek Verbs_C12 ;
+pasiek Verbs_C12 ;
+naudo Verbs_ja_jo ;
 
 ! vim: set ft=xfst-lexc:

@@ -32,5 +32,27 @@ paprast Adj_C1 ;
 pagrindin Adj_C3 ;
 vis Adj_C1 ;
 pasaulin Adj_C3 ;
+lab Adj_C1 ;
+pagrindin Adj_C3 ;
+ankst Adj_C2 ;
+svarb Adj_C2 ;
+vidurin Adj_C3 ;
+atsarg Adj_C2 ;
+visišk Adj_C1 ;
+lėt Adj_C1 ;
+greit Adj_C1 ;
+tikr Adj_C1 ;
+ilg Adj_C1 ;
+lietuvišk Adj_C1 ;
+anglišk Adj_C1 ;
+amerikietišk Adj_C1 ;
+latvišk Adj_C1 ;
+ispanišk Adj_C1 ;
+japonišk Adj_C1 ;
+vokietišk Adj_C1 ;
+meksikietišk Adj_C1 ;
+laiming Adj_C1 ;
+liūdn Adj_C1 ;
+žemaitišk Adj_C1 ;
 
 ! vim: set ft=xfst-lexc:
