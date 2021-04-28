@@ -19,7 +19,7 @@ The comparative forms are:
 THe definitive form is:
 Numerals are classified under:
 
-
+Pronouns can be
 
 Verb personal forms are:
 The verb conjugation patterns are:
