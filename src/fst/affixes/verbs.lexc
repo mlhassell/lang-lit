@@ -418,10 +418,6 @@ LEXICON Conj_šta
 +2Pl:štate # ;
 +3Pl:šta # ;
 
-LEXICON Verbs_ikti
-+V+FPst: Freq_Past_k ;
-+V+Fut: Future_k ;
-
 LEXICON Conj_inka
 +1Sg:nku # ;
 +2Sg:nki # ;
