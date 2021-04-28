@@ -2,70 +2,70 @@ LEXICON pronoun_neut
 +Pron: # ;
 
 LEXICON Pron_1Sg
-+Pron+1Sg+Nom:aš ;
-+Pron+1Sg+Gen:manęs ;
-+Pron+1Sg+Dat:man ;
-+Pron+1Sg+Acc:mane ;
-+Pron+1Sg+Ins:manimi ;
-+Pron+1Sg+Loc:manyje ;
-+Pron+1Sg+Poss:mano ;
++Pron+1Sg+Nom:aš # ;
++Pron+1Sg+Gen:manęs # ;
++Pron+1Sg+Dat:man # ;
++Pron+1Sg+Acc:mane # ;
++Pron+1Sg+Ins:manimi # ;
++Pron+1Sg+Loc:manyje # ;
++Pron+1Sg+Poss:mano # ;
 
 LEXICON Pron_2Sg
-+Pron+2Sg+Nom:tu ;
-+Pron+2Sg+Gen:tavęs ;
-+Pron+2Sg+Dat:tau ;
-+Pron+2Sg+Acc:tave ;
-+Pron+2Sg+Ins:tavimi ;
-+Pron+2Sg+Loc:tavyje ;
-+Pron+2Sg+Poss:tavo ;
++Pron+2Sg+Nom:tu # ;
++Pron+2Sg+Gen:tavęs # ;
++Pron+2Sg+Dat:tau # ;
++Pron+2Sg+Acc:tave # ;
++Pron+2Sg+Ins:tavimi # ;
++Pron+2Sg+Loc:tavyje # ;
++Pron+2Sg+Poss:tavo # ;
 
 LEXICON Pron_3Sg_M
-+Pron+3Sg+Msc+Nom:jis ;
-+Pron+3Sg+Msc+Gen:jo ;
-+Pron+3Sg+Msc+Dat:jam ;
-+Pron+3Sg+Msc+Acc:jį ;
-+Pron+3Sg+Msc+Ins:juo ;
-+Pron+3Sg+Msc+Loc:jame ;
++Pron+3Sg+Msc+Nom:jis # ;
++Pron+3Sg+Msc+Gen:jo # ;
++Pron+3Sg+Msc+Dat:jam # ;
++Pron+3Sg+Msc+Acc:jį # ;
++Pron+3Sg+Msc+Ins:juo # ;
++Pron+3Sg+Msc+Loc:jame # ;
 
 LEXICON Pron_3Sg_F
-+Pron+3Sg+Fem+Nom:ji ;
-+Pron+3Sg+Fem+Gen:jos ;
-+Pron+3Sg+Fem+Dat:jai ;
-+Pron+3Sg+Fem+Acc:ją ;
-+Pron+3Sg+Fem+Ins:ja ;
-+Pron+3Sg+Fem+Loc:joje ;
++Pron+3Sg+Fem+Nom:ji # ;
++Pron+3Sg+Fem+Gen:jos # ;
++Pron+3Sg+Fem+Dat:jai # ;
++Pron+3Sg+Fem+Acc:ją # ;
++Pron+3Sg+Fem+Ins:ja # ;
++Pron+3Sg+Fem+Loc:joje # ;
 
 LEXICON Pron_1Pl
-+Pron+1Pl+Nom:mes ;
-+Pron+1Pl+Gen:mūsų ;
++Pron+1Pl+Nom:mes # ;
++Pron+1Pl+Gen:mūsų # ;
 +Pron+1Pl+Dat:mums ;
 +Pron+1Pl+Acc:mus ;
 +Pron+1Pl+Ins:mumis ;
 +Pron+1Pl+Loc:mumyse ;
 
 LEXICON Pron_2Pl
-+Pron+2Pl+Nom:jūs ;
-+Pron+2Pl+Gen:jūsų ;
-+Pron+2Pl+Dat:jums ;
-+Pron+2Pl+Acc:jus ;
-+Pron+2Pl+Ins:jumis ;
-+Pron+2Pl+Loc:jumyse ;
++Pron+2Pl+Nom:jūs # ;
++Pron+2Pl+Gen:jūsų # ;
++Pron+2Pl+Dat:jums # ;
++Pron+2Pl+Acc:jus # ;
++Pron+2Pl+Ins:jumis # ;
++Pron+2Pl+Loc:jumyse # ;
 
 LEXICON Pron_3Pl_M
-+Pron+3Pl+Msc+Nom:jie ;
-+Pron+3Pl+Msc+Gen:jų ;
-+Pron+3Pl+Msc+Dat:jiems ;
-+Pron+3Pl+Msc+Acc:juos ;
-+Pron+3Pl+Msc+Ins:jais ;
-+Pron+3Pl+Msc+Loc:juose ;
++Pron+3Pl+Msc+Nom:jie # ;
++Pron+3Pl+Msc+Gen:jų # ;
++Pron+3Pl+Msc+Dat:jiems # ;
++Pron+3Pl+Msc+Acc:juos # ;
++Pron+3Pl+Msc+Ins:jais # ;
++Pron+3Pl+Msc+Loc:juose # ;
 
 LEXICON Pron_3Pl_F
-+Pron+3Pl+Fem+Nom:jos ;
-+Pron+3Pl+Fem+Gen:jų ;
-+Pron+3Pl+Fem+Dat:joms ;
-+Pron+3Pl+Fem+Acc:jas ;
-+Pron+3Pl+Fem+Ins:jomis ;
-+Pron+3Pl+Fem+Loc:jose ;
++Pron+3Pl+Fem+Nom:jos # ;
++Pron+3Pl+Fem+Gen:jų # ;
++Pron+3Pl+Fem+Dat:joms # ;
++Pron+3Pl+Fem+Acc:jas # ;
++Pron+3Pl+Fem+Ins:jomis # ;
++Pron+3Pl+Fem+Loc:jose # ;
 
 LEXICON pron_inter
 +Pron+Int+Nom:as # ;
@@ -79,4 +79,4 @@ LEXICON pron_inter
 !!€gt-desc: pronoun_test
 !!€ aš:     aš+Pron+1Sg+Nom
 !!€ jus:    jūs+Pron+2Pl+Acc
-!!€ jose:   jos+Pron+Fem+3Pl+Loc
+!!€ joje:   ji+Pron+3Sg+Fem+Loc

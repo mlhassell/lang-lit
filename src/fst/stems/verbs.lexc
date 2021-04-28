@@ -22,5 +22,14 @@ sudar Verbs_C3 ;
 pradeti:prad Verbs_deti ;
 deti:d Verbs_deti ;
 padeti:pad Verbs_deti ;
+veik Verbs_C12 ;
+klaus Verbs_C3 ;
+priklaus Verbs_C3 ;
+klaus Verbs_C12 ;
+klaus Verbs_C3R ;
+mirti:mir Verbs_sta ;
+patikti:pati Verbs_ikti ;
+susitikti:susiti Verbs_ikti;
+pieš Verbs_C12 ;
 
 ! vim: set ft=xfst-lexc:

@@ -23,6 +23,14 @@ vietin Adj_C3 ;
 silpn Adj_C1 ;
 kiet Adj_C1 ;
 jaun Adj_C1 ;
-
+pirm Adj_C1 ;
+antr Adj_C1 ;
+treč Adj_C1 ;
+dažn Adj_C1 ;
+politin Adj_C3 ;
+paprast Adj_C1 ;
+pagrindin Adj_C3 ;
+vis Adj_C1 ;
+pasaulin Adj_C3 ;
 
 ! vim: set ft=xfst-lexc:
