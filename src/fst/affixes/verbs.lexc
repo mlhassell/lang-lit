@@ -91,6 +91,22 @@ LEXICON Verbs_deti
 +V+Cond: Subjunctive_e ;
 +V+Imprt: Imperative_e ;
 
+LEXICON Verbs_šta
++V+Pres: Conj_šta ;
++V+Pst: Conj_e ;
++V+FPst: Freq_Past ;
++V+Fut: Future ;
++V+Cond: Subjunctive ;
++V+Imprt: Imperative ;
+
+LEXICON Verbs_ikti
++V+Pres: Conj_inka ;
++V+Pst: Conj_ko ;
++V+FPst: Freq_Past_k ;
++V+Fut: Future_k ;
++V+Cond: Subjunctive_k ;
++V+Imprt: Imperative ;
+
 LEXICON Conj_a
 +1Sg:u # ;
 +2Sg:i # ;
@@ -393,6 +409,58 @@ LEXICON Conj_eda
 +1Pl:edame # ;
 +2Pl:edate # ;
 +3Pl:eda # ;
+
+LEXICON Conj_šta
++1Sg:štu # ;
++2Sg:šti # ;
++3Sg:šta # ;
++1Pl:štame # ;
++2Pl:štate # ;
++3Pl:šta # ;
+
+LEXICON Verbs_ikti
++V+FPst: Freq_Past_k ;
++V+Fut: Future_k ;
+
+LEXICON Conj_inka
++1Sg:nku # ;
++2Sg:nki # ;
++3Sg:nka # ;
++1Pl:nkame # ;
++2Pl:nkate # ;
++3Pl:nka # ;
+
+LEXICON Conj_ko
++1Sg:kau # ;
++2Sg:kai # ;
++3Sg:ko # ;
++1Pl:kome # ;
++2Pl:kote # ;
++3Pl:ko # ;
+
+LEXICON Freq_Past_k
++1Sg:kdavau # ;
++2Sg:kdavai # ;
++3Sg:kdavo # ;
++1Pl:kdavome # ;
++2Pl:kdavote # ;
++3Pl:kdavo # ;
+
+LEXICON Future_k
++1Sg:ksiu # ;
++2Sg:ksi # ;
++3Sg:ks # ;
++1Pl:ksime # ;
++2Pl:ksite # ;
++3Pl:ks # ;
+
+LEXICON Subjunctive_k
++1Sg:kčiau # ;
++2Sg:ktum # ;
++3Sg:ktų # ;
++1Pl:ktume # ;
++2Pl:ktumėte # ;
++3Pl:ktų # ;
 
 ! vim: set ft=xfst-lexc:
 

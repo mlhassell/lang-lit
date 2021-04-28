@@ -254,6 +254,22 @@ LEXICON Noun_C53
  +N+Pl+Loc:eryse   #     ;
  +N+Pl+Voc:erys   #     ;
 
+LEXICON Noun_žmogus
+ +N+Sg+Nom:gus   #     ;
+ +N+Sg+Gen:gaus   #     ;
+ +N+Sg+Dat:gui   #     ;
+ +N+Sg+Acc:gų   #     ;
+ +N+Sg+Ins:gumi   #     ;
+ +N+Sg+Loc:guje   #     ;
+ +N+Sg+Voc:gau   #     ;
+ +N+Pl+Nom:nės   #     ;
+ +N+Pl+Gen:nių   #     ;
+ +N+Pl+Dat:nėms   #     ;
+ +N+Pl+Acc:nes   #     ;
+ +N+Pl+Ins:nėmis   #     ;
+ +N+Pl+Loc:nėse   #     ;
+ +N+Pl+Voc:nės   #     ;
+
 ! vim: set ft=xfst-lexc:
 
 
