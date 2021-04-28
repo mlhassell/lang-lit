@@ -31,5 +31,10 @@ mirti:mir Verbs_sta ;
 patikti:pati Verbs_ikti ;
 susitikti:susiti Verbs_ikti;
 pieš Verbs_C12 ;
+prasideti:prasid Verbs_deti ;
+pasideti:pasid Verbs_deti ;
+prideti:prid Verbs_deti ;
+atideti:atid Verbs_deti ;
+sudeti:sud Verbs_deti ;
 
 ! vim: set ft=xfst-lexc:
